@@ -31,10 +31,6 @@
   <!-- Navigation Header -->
   <header class="header">
     <div class="container nav-container">
-      <a href="#" class="logo">
-        Aravind<span class="accent">.AI</span>
-      </a>
-
       <ul class="nav-links" id="nav-links">
         <li><a href="#about" class="active">About</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -67,7 +63,7 @@
           <h1 class="hero-name">Aravind Kumar</h1>
           <h2 class="hero-title">Architecting Generative AI, LLMs, AI Agents & Computer Vision</h2>
           <p class="hero-description">
-            Machine Learning Engineer with <strong>7+ years of experience</strong> (since 2019) building
+            Machine Learning Engineer with <strong>7+ years of experience</strong> building
             production-grade
             <strong>Generative AI, Autonomous AI Agents, LLM pipelines, Computer Vision systems, and MLOps
               infrastructure</strong>.
@@ -81,24 +77,6 @@
             </a>
             <a href="#contact" class="btn btn-secondary">
               <i class="fas fa-paper-plane"></i> Get in Touch
-            </a>
-            <a href="https://www.linkedin.com/in/aravindkumar-ai/" target="_blank" rel="noopener"
-              class="btn btn-secondary">
-              <i class="fab fa-linkedin"></i> LinkedIn Profile
-            </a>
-          </div>
-
-          <div class="hero-links">
-            <a href="https://www.linkedin.com/in/aravindkumar-ai/" target="_blank" rel="noopener" class="social-link"
-              title="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/AravindKumar-AI" target="_blank" rel="noopener" class="social-link"
-              title="GitHub">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:aravindkumar.ai [at] outlook.com" class="social-link" title="Email">
-              <i class="fas fa-envelope"></i>
             </a>
           </div>
         </div>
@@ -551,10 +529,10 @@
 
   <!-- Blog Reading Modal -->
   <div class="modal-overlay" id="blog-modal">
+    <button class="modal-close" onclick="closeBlogModal()" aria-label="Back">
+      <i class="fas fa-arrow-left"></i> Back
+    </button>
     <div class="modal-container">
-      <button class="modal-close" onclick="closeBlogModal()" aria-label="Close Modal">
-        <i class="fas fa-times"></i>
-      </button>
       <div id="modal-markdown-body">
         <!-- Markdown rendered content will load here -->
       </div>
@@ -564,11 +542,6 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-links">
-        <a href="https://www.linkedin.com/in/aravindkumar-ai/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/AravindKumar-AI" target="_blank" rel="noopener">GitHub</a>
-        <a href="mailto:aravindkumar.ai [at] outlook.com">Email</a>
-      </div>
       <p>© <span id="year"></span> Aravind Kumar. Built for GitHub Pages.</p>
     </div>
   </footer>

@@ -35,6 +35,7 @@ async function initBlogEngine() {
     // Check if URL hash specifies a post slug to open directly
     checkUrlHashForPost();
     window.addEventListener('hashchange', checkUrlHashForPost);
+    window.addEventListener('popstate', checkUrlHashForPost);
 
   } catch (error) {
     console.error('Error initializing blog engine:', error);
@@ -124,7 +125,7 @@ function renderBlogs(blogs) {
   `).join('');
 }
 
-async function openBlogModal(slug) {
+async function openBlogModal(slug, setHash = true) {
   const blog = allBlogs.find(b => b.slug === slug);
   if (!blog) return;
 
@@ -141,8 +142,11 @@ async function openBlogModal(slug) {
   `;
 
   modalOverlay.classList.add('active');
+  modalOverlay.scrollTop = 0;
   document.body.style.overflow = 'hidden';
-  window.location.hash = `post-${slug}`;
+  if (setHash && window.location.hash !== `#post-${slug}`) {
+    window.location.hash = `post-${slug}`;
+  }
 
   try {
     const res = await fetch(`content/posts/${slug}.md`);
@@ -158,13 +162,13 @@ async function openBlogModal(slug) {
     }
 
     modalBody.innerHTML = `
-      <div style="margin-bottom: 2rem;">
-        <div class="blog-meta" style="font-size: 0.9rem; margin-bottom: 0.5rem;">
+      <div style="margin-bottom: 2.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem;">
+        <div class="blog-meta" style="font-size: 0.95rem; margin-bottom: 0.75rem;">
           <span><i class="far fa-calendar-alt"></i> ${blog.date}</span>
           <span>•</span>
-          <span><i class="far fa-clock"></i> ${blog.readTime}</span>
+          <span><i class="far fa-clock"></i> ${blog.readTime || '5 min read'}</span>
         </div>
-        <div class="tags-wrapper" style="margin-bottom: 1.5rem;">
+        <div class="tags-wrapper">
           ${(blog.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
         </div>
       </div>
@@ -186,12 +190,19 @@ async function openBlogModal(slug) {
   }
 }
 
-function closeBlogModal() {
+function closeBlogModalUI() {
   const modalOverlay = document.getElementById('blog-modal');
   if (modalOverlay) {
     modalOverlay.classList.remove('active');
     document.body.style.overflow = '';
-    history.pushState("", document.title, window.location.pathname + window.location.search);
+  }
+}
+
+function closeBlogModal() {
+  if (window.location.hash && window.location.hash.startsWith('#post-')) {
+    history.back();
+  } else {
+    closeBlogModalUI();
   }
 }
 
@@ -199,7 +210,9 @@ function checkUrlHashForPost() {
   const hash = window.location.hash;
   if (hash && hash.startsWith('#post-')) {
     const slug = hash.replace('#post-', '');
-    openBlogModal(slug);
+    openBlogModal(slug, false);
+  } else {
+    closeBlogModalUI();
   }
 }
 
