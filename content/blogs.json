@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "building-autonomous-ai-agents-claude-sdk",
+    "title": "Building Autonomous AI Agents with the Claude Agent SDK",
+    "summary": "Design patterns, tool integration, context management, and production guardrails for building resilient multi-step AI agents.",
+    "date": "January 2026",
+    "readTime": "7 min read",
+    "tags": ["AIAgents", "ClaudeSDK", "LLMs", "GenAI"]
+  },
+  {
+    "slug": "fine-tuning-slms-for-classification",
+    "title": "Fine-Tuning Small Language Models (SLMs) for Efficient Module Classification",
+    "summary": "Exploring techniques for lightweight LLM and SLM fine-tuning to deliver sub-100ms cybersecurity training module recommendations at scale.",
+    "date": "August 2024",
+    "readTime": "6 min read",
+    "tags": ["GenAI", "LLMs", "PyTorch", "NLP"]
+  },
+  {
+    "slug": "high-throughput-cv-deepstream-tensorrt",
+    "title": "Slashing Inference Latency: 8x Acceleration with Nvidia DeepStream & TensorRT",
+    "summary": "Architectural patterns for hardware-accelerated computer vision pipelines, quantization strategies, and deploying Triton Inference Server in production.",
+    "date": "May 2024",
+    "readTime": "8 min read",
+    "tags": ["ComputerVision", "DeepStream", "TensorRT", "Deployments"]
+  }
+]
