@@ -31,12 +31,13 @@
   <!-- Navigation Header -->
   <header class="header">
     <div class="container nav-container">
+      <a href="#about" class="logo" aria-label="Aravind Kumar home">AK<span class="accent">.</span></a>
       <ul class="nav-links" id="nav-links">
         <li><a href="#about" class="active">About</a></li>
+        <li><a href="#missions">Missions</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Awards</a></li>
         <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -53,44 +54,94 @@
   </header>
 
   <main>
-    <!-- Hero / About Section -->
-    <section class="hero section" id="about">
-      <div class="container">
+    <!-- Hero / Arcade Stage -->
+    <section class="hero arcade-hero section" id="about">
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="container hero-grid">
         <div class="hero-content">
           <div class="hero-badge">
-            <span class="pulse-dot"></span> Senior AI & Machine Learning Engineer (7+ YOE)
+            <span class="pulse-dot"></span> PLAYER 1 · SENIOR AI / ML ENGINEER
           </div>
           <h1 class="hero-name">Aravind Kumar R</h1>
-          <h2 class="hero-title">Architecting Autonomous AI Agents, Generative AI (LLMs/SLMs) & High-Performance CV Systems</h2>
+          <h2 class="hero-title">I ship agents, SLMs, and GPU vision — then red-team them until they hold.</h2>
           <p class="hero-description">
-            Senior AI & Machine Learning Engineer with <strong>7+ years of experience</strong> architecting and deploying enterprise-scale
-            <strong>Autonomous AI Agents, Generative AI (LLMs/SLMs), NLP pipelines, and real-time Computer Vision systems</strong>.
-            Proven track record across high-growth startups and enterprise cybersecurity environments, ranging from building agentic workflows
-            and fine-tuning Small Language Models (SLMs) at KnowBe4, to engineering Neo4j knowledge graph recommendation engines for 1M+ learners at LearnTube.ai,
-            and achieving 8x inference latency reductions using NVIDIA DeepStream/TensorRT at DIATOZ. Winner of KnowBe4 AI Hackathon 2026, Best Employee Award 2022,
-            Claude Certified Architect (CCAF), and AWS Certified AI Practitioner.
+            7+ years from NVIDIA DeepStream lanes to KnowBe4’s agent stack.
+            <strong>8× faster CV inference</strong>, graphs for <strong>1M+ learners</strong>,
+            and a <strong>hackathon-winning red-team agent</strong> that pentests other agents.
           </p>
 
+          <ul class="hud-stats" aria-label="Career highlights">
+            <li><span class="hud-num">01</span><span class="hud-label">Hackathon wins</span></li>
+            <li><span class="hud-num">7+</span><span class="hud-label">Years shipped</span></li>
+            <li><span class="hud-num">1M+</span><span class="hud-label">Learners served</span></li>
+            <li><span class="hud-num">8×</span><span class="hud-label">TensorRT speedup</span></li>
+          </ul>
+
           <div class="hero-buttons">
-            <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf" target="_blank" class="btn btn-primary">
-              <i class="fas fa-file-pdf"></i> View Resume
+            <a href="#missions" class="btn btn-primary">
+              <i class="fas fa-gamepad"></i> Enter missions
             </a>
-            <a href="#blog" class="btn btn-secondary">
-              <i class="fas fa-book-open"></i> Read Blogs
+            <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fas fa-file-pdf"></i> Resume
             </a>
             <a href="#contact" class="btn btn-secondary">
-              <i class="fas fa-paper-plane"></i> Get in Touch
+              <i class="fas fa-paper-plane"></i> Contact
             </a>
           </div>
+        </div>
+
+        <aside class="arcade-cabinet" aria-label="Guardrail Arena mini game">
+          <div class="cabinet-top">
+            <span class="cab-led"></span>
+            <span class="cab-title">GUARDRAIL ARENA</span>
+            <span class="cab-led dim"></span>
+          </div>
+          <div class="cabinet-screen">
+            <div class="scanlines" aria-hidden="true"></div>
+            <canvas id="arena-canvas" width="420" height="520" tabindex="0"
+              aria-label="Defend against falling prompt-injection attacks. Arrow keys or drag to move. Auto-fires guardrail pulses."></canvas>
+            <div class="arena-overlay" id="arena-overlay">
+              <p class="overlay-kicker">MINI GAME</p>
+              <h3 id="arena-overlay-title">PROMPT INJECTION INBOUND</h3>
+              <p id="arena-overlay-copy">Move the guardrail. Blast jailbreaks before they hit the floor. Arrows / A-D or drag. Auto-fire is on.</p>
+              <button type="button" class="btn btn-primary" id="arena-start">Insert coin · Start</button>
+            </div>
+          </div>
+          <div class="cabinet-hud">
+            <div><span class="hud-k">SCORE</span><span id="arena-score">0</span></div>
+            <div><span class="hud-k">LIVES</span><span id="arena-lives">♥♥♥</span></div>
+            <div><span class="hud-k">COMBO</span><span id="arena-combo"></span></div>
+            <div><span class="hud-k">BEST</span><span id="arena-best">0</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Hackathon Missions -->
+    <section class="section missions-section" id="missions">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="number">00.</span> Hackathon Missions &amp; Lab Builds
+        </h2>
+        <p class="section-subtitle">Select a block — each tile is a looping scene, like a GIF cartridge for the build.</p>
+
+        <div class="mission-filters" id="mission-filters">
+          <button type="button" class="filter-btn active" data-kind="all">All</button>
+          <button type="button" class="filter-btn" data-kind="hackathon">Hackathons</button>
+          <button type="button" class="filter-btn" data-kind="build">Lab builds</button>
+        </div>
+
+        <div class="mission-grid" id="mission-grid">
+          <!-- Loaded from content/projects.json -->
         </div>
       </div>
     </section>
 
     <!-- Experience Timeline Section -->
-    <section class="section" id="experience" style="background: var(--bg-secondary);">
+    <section class="section" id="experience">
       <div class="container">
         <h2 class="section-title">
-          <span class="number">01.</span> Professional Experience
+          <span class="number">02.</span> Professional Experience
         </h2>
         <p class="section-subtitle">Over 7 years of building, deploying, and scaling AI/ML systems in high-growth environments</p>
 
@@ -191,7 +242,7 @@
     <section class="section" id="skills">
       <div class="container">
         <h2 class="section-title">
-          <span class="number">02.</span> Technical Expertise
+          <span class="number">03.</span> Technical Expertise
         </h2>
         <p class="section-subtitle">Core skills across Autonomous AI Agents, LLMs, Computer Vision, MLOps, and Knowledge Graphs</p>
 
@@ -323,7 +374,7 @@
     <section class="section" id="achievements" style="background: var(--bg-secondary);">
       <div class="container">
         <h2 class="section-title">
-          <span class="number">03.</span> Honors, Awards & Education
+          <span class="number">04.</span> Honors, Awards & Education
         </h2>
         <p class="section-subtitle">Industry awards, published research, and academic qualifications</p>
 
@@ -441,7 +492,7 @@
     <section class="section" id="certifications">
       <div class="container">
         <h2 class="section-title">
-          <span class="number">04.</span> Certifications & Credentials
+          <span class="number">05.</span> Certifications & Credentials
         </h2>
         <p class="section-subtitle">Industry-recognized credentials in AI Architecture, Generative AI, and Cloud</p>
 
@@ -569,7 +620,7 @@
     <section class="section" id="blog" style="background: var(--bg-secondary);">
       <div class="container">
         <h2 class="section-title">
-          <span class="number">05.</span> Technical Blog & Notes
+          <span class="number">06.</span> Technical Blog & Notes
         </h2>
         <p class="section-subtitle">Articles on AI Agents, LLM fine-tuning, computer vision optimization, and system design</p>
 
@@ -597,7 +648,7 @@
     <section class="section" id="contact">
       <div class="container" style="text-align: center; max-width: 720px;">
         <h2 class="section-title" style="justify-content: center;">
-          <span class="number">06.</span> Get In Touch
+          <span class="number">07.</span> Get In Touch
         </h2>
         <p class="section-subtitle">Open for AI engineering leadership, consulting, and technical collaboration</p>
 
@@ -624,6 +675,16 @@
       </div>
     </section>
   </main>
+
+  <!-- Mission detail modal -->
+  <div class="modal-overlay" id="mission-modal" role="dialog" aria-modal="true" aria-labelledby="mission-modal-title">
+    <button class="modal-close" onclick="closeMission()" aria-label="Back">
+      <i class="fas fa-arrow-left"></i> Back
+    </button>
+    <div class="modal-container mission-modal-container">
+      <div id="mission-modal-body"></div>
+    </div>
+  </div>
 
   <!-- Blog Reading Modal -->
   <div class="modal-overlay" id="blog-modal">
@@ -653,6 +714,8 @@
 
   <!-- Application Scripts -->
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/game.js"></script>
+  <script src="assets/js/projects.js"></script>
   <script src="assets/js/blog.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
