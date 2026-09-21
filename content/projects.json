@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "red-team-agent",
+    "kind": "hackathon",
+    "scene": "redteam",
+    "title": "Autonomous Red Teaming Agent",
+    "event": "KnowBe4 AI Hackathon · Bengaluru",
+    "year": "2026",
+    "place": "1st Place · Winner",
+    "rank": "gold",
+    "summary": "An agent that pentests other agents — hunting prompt injection, jailbreaks, and guardrail bypasses on a loop, then filing structured findings.",
+    "detail": "Built for the KnowBe4 AI Hackathon as part of the winning team. The system acts as an autonomous red team: it plans attack campaigns, probes target agents with adaptive jailbreak strategies, scores guardrail failures, and reports reproducible traces. The same ideas later informed production agent-security work (prompt-injection classifiers, evaluation pipelines, Claude Agent SDK audits).",
+    "tags": ["AI Agents", "Red Team", "Prompt Injection", "Claude SDK"],
+    "links": []
+  },
+  {
+    "slug": "engineering-innovation-2024",
+    "kind": "hackathon",
+    "scene": "agents",
+    "title": "Production Agentic Systems",
+    "event": "Engineering Innovation Summit",
+    "year": "2024",
+    "place": "Runners Up",
+    "rank": "silver",
+    "summary": "A sprint to take generative and agentic systems out of the notebook and into a real architecture — tools, evals, and a path to ship.",
+    "detail": "Recognized at the Engineering Innovation Summit 2024 for architecting and deploying real-world generative AI and agentic systems. The build focused on multi-step tool-using agents, evaluation harnesses, and production constraints rather than a demo-only prototype.",
+    "tags": ["GenAI", "Agents", "Evals", "Production"],
+    "links": []
+  },
+  {
+    "slug": "aurater-rover",
+    "kind": "hackathon",
+    "scene": "rover",
+    "title": "AURATER — Trash-Eliminating Rover",
+    "event": "IEEE Sponsored ICRAET",
+    "year": "2017",
+    "place": "Best Paper Award",
+    "rank": "gold",
+    "summary": "An autonomous unmanned rover that detects and collects trash — the project that started the applied-AI streak, published as primary author.",
+    "detail": "Primary author of “AURATER: Autonomous Unmanned Rover with Advanced Trash Eliminating Robot,” presented at the International Conference on Recent Advances in Engineering and Technology. Computer vision plus mechatronics: detect debris, plan a path, pick it up. Best Paper at an IEEE-sponsored venue.",
+    "tags": ["Robotics", "Computer Vision", "Mechatronics", "IEEE"],
+    "links": []
+  },
+  {
+    "slug": "illustrated",
+    "kind": "build",
+    "scene": "illustrate",
+    "title": "IllustratED",
+    "event": "AI for Learning",
+    "year": "2026",
+    "place": "Open Build",
+    "rank": "lab",
+    "summary": "History, science, and math for kids — explained with AI-generated illustrations so the idea lands as a picture, not a paragraph.",
+    "detail": "An educational app for children focused on History, Science, and Math. Lessons are paired with on-the-fly illustrations (Gemini image models) so abstract ideas become visual stories. Built to make learning feel like opening a picture book that writes itself.",
+    "tags": ["EdTech", "Gemini", "Kids", "Multimodal"],
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/AravindKumar-AI/IllustratED" }
+    ]
+  },
+  {
+    "slug": "whized",
+    "kind": "build",
+    "scene": "tutor",
+    "title": "WhiZED · Socratic Tutor",
+    "event": "On-device / Gemma 3n",
+    "year": "2025",
+    "place": "Open Build",
+    "rank": "lab",
+    "summary": "A Socratic tutor for school students that asks before it answers — built around Gemma 3n so the dialogue can live closer to the device.",
+    "detail": "WhiZED is a Socratic tutor for school students powered by Gemma 3n. Instead of dumping answers, it walks the student through questions, hints, and worked examples. Companion experiments include WhiZardLM (a NotebookLM-style workspace for school notes).",
+    "tags": ["Gemma", "Tutoring", "SLMs", "EdTech"],
+    "links": [
+      { "label": "WhiZED", "href": "https://github.com/AravindKumar-AI/WhiZED" },
+      { "label": "WhiZardLM", "href": "https://github.com/AravindKumar-AI/WhiZardLM" }
+    ]
+  },
+  {
+    "slug": "juno-asimov",
+    "kind": "build",
+    "scene": "voice",
+    "title": "Juno & Asimov",
+    "event": "Spoken English for Kids",
+    "year": "2023–2025",
+    "place": "Open Build",
+    "rank": "lab",
+    "summary": "Voice-first English practice for kids — including under-privileged learners — with GPT-backed conversation instead of flashcards.",
+    "detail": "Juno is an AI spoken-English app aimed at kids, including under-privileged learners. Asimov is a GPT-powered English learning companion. Both experiments explore patient, voice-first practice loops rather than multiple-choice drills.",
+    "tags": ["Speech", "GPT", "Kids", "Accessibility"],
+    "links": [
+      { "label": "Juno", "href": "https://github.com/AravindKumar-AI/juno" },
+      { "label": "Asimov", "href": "https://github.com/AravindKumar-AI/Asimov" }
+    ]
+  }
+]
