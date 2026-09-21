@@ -186,7 +186,7 @@ code, pre {
   display: flex;
   align-items: center;
   gap: 0;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.14em;
   font-family: var(--font-mono);
 }
 
