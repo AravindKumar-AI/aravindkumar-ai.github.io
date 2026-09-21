@@ -1590,7 +1590,7 @@ main, .header, .footer {
   transform-origin: bottom;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .mission-grid {
     grid-template-columns: 1fr 1fr;
   }
