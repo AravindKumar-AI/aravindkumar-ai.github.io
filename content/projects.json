@@ -14,17 +14,17 @@
     "links": []
   },
   {
-    "slug": "engineering-innovation-2024",
+    "slug": "matrix",
     "kind": "hackathon",
     "scene": "agents",
-    "title": "Production Agentic Systems",
+    "title": "Matrix",
     "event": "Engineering Innovation Summit",
     "year": "2024",
     "place": "Runners Up",
     "rank": "silver",
-    "summary": "A sprint to take generative and agentic systems out of the notebook and into a real architecture — tools, evals, and a path to ship.",
-    "detail": "Recognized at the Engineering Innovation Summit 2024 for architecting and deploying real-world generative AI and agentic systems. The build focused on multi-step tool-using agents, evaluation harnesses, and production constraints rather than a demo-only prototype.",
-    "tags": ["GenAI", "Agents", "Evals", "Production"],
+    "summary": "Data enhancement for training recommendations and phishing simulations — built for new users with no previously known profile or behavioral history.",
+    "detail": "Matrix solves the cold-start problem in security awareness: it enriches sparse user data to power personalized training recommendations and realistic phishing simulations for brand-new users who have no prior history in the system.",
+    "tags": ["Recommendations", "Phishing Simulation", "Cold Start", "Security Training"],
     "links": []
   },
   {
