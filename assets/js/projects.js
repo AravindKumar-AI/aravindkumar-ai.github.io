@@ -44,7 +44,7 @@ function renderMissions(missions) {
   if (!grid) return;
 
   grid.innerHTML = missions.map((m, i) => `
-    <article class="mission-card ${i === 0 ? 'featured' : ''}" data-slug="${escapeAttr(m.slug)}">
+    <article class="mission-card react-tilt ${i === 0 ? 'featured' : ''}" data-slug="${escapeAttr(m.slug)}">
       <button type="button" class="mission-hit" aria-label="Open ${escapeAttr(m.title)}">
         <div class="mission-gif" data-scene="${escapeAttr(m.scene)}" aria-hidden="true">
           ${sceneMarkup(m.scene)}

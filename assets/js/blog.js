@@ -105,7 +105,7 @@ function renderBlogs(blogs) {
   }
 
   blogGrid.innerHTML = blogs.map(blog => `
-    <article class="blog-card" onclick="openBlogModal('${blog.slug}')">
+    <article class="blog-card react-tilt" onclick="openBlogModal('${blog.slug}')">
       <div>
         <div class="blog-meta">
           <span><i class="far fa-calendar-alt"></i> ${blog.date}</span>
