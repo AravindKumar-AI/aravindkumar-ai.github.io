@@ -209,6 +209,21 @@ code, pre {
   list-style: none;
   flex: 1;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(var(--max-width), 100%);
+  height: 4.25rem;
+  padding: 0 1.5rem;
+  margin: 0;
+  z-index: 1001;
+  pointer-events: none;
+}
+
+.nav-links li,
+.nav-links a {
+  pointer-events: auto;
 }
 
 .nav-links a {
@@ -939,66 +954,6 @@ code, pre {
     display: block;
   }
   
-  .nav-container {
-    position: relative;
-    z-index: 2;
-  }
-
-  .nav-links {
-    position: fixed;
-    top: 4.25rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    max-width: 100vw;
-    background: var(--bg-secondary);
-    border-bottom: 1px solid var(--border-color);
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    padding: 1rem 1.5rem 2rem;
-    gap: 0;
-    transform: translateX(100%);
-    transition: transform 0.3s ease, visibility 0.3s ease;
-    z-index: 1100;
-    flex: none;
-    overflow-y: auto;
-    visibility: hidden;
-    pointer-events: none;
-    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.2);
-  }
-
-  .nav-links li {
-    width: 100%;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .nav-links li:last-child {
-    border-bottom: none;
-  }
-
-  .nav-links a {
-    display: block;
-    padding: 1rem 0;
-    font-size: 1.05rem;
-  }
-
-  .nav-links a.active::after {
-    bottom: 0.65rem;
-    width: 2.5rem;
-  }
-
-  .nav-links.active {
-    transform: translateX(0);
-    visibility: visible;
-    pointer-events: auto;
-  }
-
-  body.menu-open {
-    overflow: hidden;
-  }
-
   .hero-name {
     font-size: 2.5rem;
   }
@@ -1055,7 +1010,7 @@ code, pre {
   background: radial-gradient(circle, rgba(37, 99, 235, 0.16) 0%, rgba(14, 165, 233, 0.08) 45%, transparent 70%);
 }
 
-main, .header, .footer {
+main, .footer {
   position: relative;
   z-index: 3;
 }
@@ -1647,6 +1602,86 @@ main, .header, .footer {
 
   .mission-card.featured {
     grid-column: span 2;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-backdrop {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(2, 6, 23, 0.55);
+    z-index: 1090;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+  }
+
+  .nav-backdrop.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .nav-links {
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: min(18rem, 86vw);
+    max-width: 86vw;
+    height: auto;
+    padding: 5.25rem 1.25rem 2rem;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border-color);
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1100;
+    flex: none;
+    overflow-y: auto;
+    box-shadow: -12px 0 40px rgba(0, 0, 0, 0.28);
+    pointer-events: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    transform: translateX(0);
+    pointer-events: auto;
+  }
+
+  .nav-links li {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 1rem 0.25rem;
+    font-size: 1.05rem;
+  }
+
+  .nav-links a.active::after {
+    bottom: 0.65rem;
+    width: 2.5rem;
+  }
+
+  body.menu-open {
+    overflow: hidden;
   }
 }
 

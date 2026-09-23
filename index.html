@@ -35,26 +35,26 @@
   <header class="header">
     <div class="container nav-container">
       <a href="#about" class="logo" aria-label="A K A I home">A K A I</a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about" class="active">About</a></li>
-        <li><a href="#missions">Missions</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#achievements">Awards</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
       <div class="nav-actions">
         <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme" title="Switch Theme">
           <i class="fas fa-sun"></i>
         </button>
-        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="nav-links">
           <i class="fas fa-bars"></i>
         </button>
       </div>
     </div>
   </header>
+  <div class="nav-backdrop" id="nav-backdrop" hidden></div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about" class="active">About</a></li>
+    <li><a href="#missions">Missions</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#achievements">Awards</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
   <main>
     <!-- Hero / live field -->

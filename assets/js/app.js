@@ -47,12 +47,17 @@ function initTheme() {
 function initMobileMenu() {
   const menuBtn = document.getElementById('mobile-menu-btn');
   const navLinks = document.getElementById('nav-links');
-  
+  const navBackdrop = document.getElementById('nav-backdrop');
+
   if (!menuBtn || !navLinks) return;
 
   function setMenuOpen(open) {
     navLinks.classList.toggle('active', open);
     document.body.classList.toggle('menu-open', open);
+    if (navBackdrop) {
+      navBackdrop.classList.toggle('active', open);
+      navBackdrop.hidden = !open;
+    }
     const icon = menuBtn.querySelector('i');
     if (icon) {
       icon.classList.toggle('fa-bars', !open);
@@ -65,9 +70,16 @@ function initMobileMenu() {
     setMenuOpen(!navLinks.classList.contains('active'));
   });
 
-  // Close menu when clicking a nav link
+  if (navBackdrop) {
+    navBackdrop.addEventListener('click', () => setMenuOpen(false));
+  }
+
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => setMenuOpen(false));
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) setMenuOpen(false);
   });
 }
 
