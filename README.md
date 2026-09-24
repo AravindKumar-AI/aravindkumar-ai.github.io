@@ -1,20 +1,17 @@
 # Aravind Kumar - Personal Portfolio & Technical Blog
 
-Minimalist, modern portfolio and Markdown blog engine for **Aravind Kumar** (Senior AI & Machine Learning Engineer with **7+ years of experience**). Hosted natively on **GitHub Pages**.
+A short, type-only portfolio for **Aravind Kumar** (Senior AI & Machine Learning Engineer). Hosted natively on **GitHub Pages**.
 
 🔗 **Live Website**: [https://aravindkumar-ai.github.io/](https://aravindkumar-ai.github.io/)  
 💼 **LinkedIn**: [https://www.linkedin.com/in/aravindkumar-ai/](https://www.linkedin.com/in/aravindkumar-ai/)
 
 ---
 
-## 🌟 Key Features
+## Key features
 
-- **GitHub Pages Native**: Zero build tools required. Built with clean HTML5, CSS3, and modern JavaScript.
-- **7+ Years YOE Experience Timeline**: Detailed career progression spanning DIATOZ (2019-2021), LearnTube.ai (2021-2023), and KnowBe4 (2024-2026+).
-- **Specialized AI Focus**: Highlighting Autonomous AI Agents (Claude Agent SDK), LLMs/SLMs fine-tuning, BERTopic/KeyBERT, Neo4j Knowledge Graphs, and Nvidia DeepStream/TensorRT video analytics.
-- **Dark / Light Theme Toggle**: Persistent theme switcher (`localStorage`).
-- **Markdown Blog Engine**: Automatically loads and renders `.md` blog posts with syntax highlighting for code blocks (Python, Bash, JSON).
-- **Search & Tag Filters**: Search articles by title/keyword or filter by topic tags (`#AIAgents`, `#ClaudeSDK`, `#GenAI`, `#ComputerVision`).
+- **GitHub Pages native**: HTML, CSS, and a small notes script. No build step.
+- **Homepage**: a narrow column of prose, with resume, email, GitHub, and LinkedIn in the footer.
+- **Notes**: `notes.html` loads the Markdown posts in `content/posts/` from `content/blogs.json`.
 
 ---
 
@@ -46,7 +43,7 @@ Adding a new blog post is simple:
    {
      "slug": "my-new-article",
      "title": "My New Article Title",
-     "summary": "Short description displayed on the blog card.",
+     "summary": "Short description of the note.",
      "date": "August 2026",
      "readTime": "5 min read",
      "tags": ["AIAgents", "Python", "LLMs"]
