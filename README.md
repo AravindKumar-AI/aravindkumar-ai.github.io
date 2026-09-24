@@ -9,9 +9,9 @@ A short, type-only portfolio for **Aravind Kumar** (Senior AI & Machine Learning
 
 ## Key features
 
-- **GitHub Pages native**: HTML, CSS, and a small notes script. No build step.
-- **Homepage**: a narrow column of prose, with resume, email, GitHub, and LinkedIn in the footer.
-- **Notes**: `notes.html` loads the Markdown posts in `content/posts/` from `content/blogs.json`.
+- **GitHub Pages native**: HTML, CSS, and a small posts script. No build step.
+- **Homepage**: a narrow column of prose, with the same links in the top bar.
+- **Posts**: `posts.html` loads the Markdown posts in `content/posts/` from `content/blogs.json`.
 
 ---
 

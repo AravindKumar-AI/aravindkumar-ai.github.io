@@ -13,7 +13,7 @@ async function init() {
     if (!response.ok) throw new Error('notes index missing');
     notes = await response.json();
   } catch (error) {
-    listEl.innerHTML = '<p>notes are unavailable right now.</p>';
+    listEl.innerHTML = '<p>posts are unavailable right now.</p>';
     return;
   }
   render();
@@ -48,7 +48,7 @@ function render() {
     .then((markdown) => {
       const body = window.marked ? window.marked.parse(markdown) : `<pre>${escapeHtml(markdown)}</pre>`;
       noteEl.innerHTML = `
-        <p><a href="notes.html">all notes</a></p>
+        <p><a href="posts.html">all posts</a></p>
         <p class="note-meta">${escapeHtml(note.date)} · ${escapeHtml(note.readTime || '')}</p>
         ${body}
       `;
@@ -56,7 +56,7 @@ function render() {
     })
     .catch(() => {
       noteEl.innerHTML = `
-        <p><a href="notes.html">all notes</a></p>
+        <p><a href="posts.html">all posts</a></p>
         <p>couldn't load this note.</p>
       `;
     });
