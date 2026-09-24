@@ -1,711 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aravind Kumar R | AI & Machine Learning Engineer</title>
+  <title>Aravind Kumar R</title>
   <meta name="description"
-    content="Portfolio and Technical Blog of Aravind Kumar R, Senior AI & Machine Learning Engineer with 7+ years of experience specializing in Autonomous AI Agents, Generative AI (LLMs/SLMs), Computer Vision, and NLP.">
+    content="Aravind Kumar R — senior machine learning engineer. Agents, small language models, and computer vision.">
   <meta name="author" content="Aravind Kumar R">
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
-    rel="stylesheet">
-
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Prism Syntax Highlighting CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
-
-  <!-- Custom Stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <div class="wrap">
 
-  <canvas id="fx-canvas" class="fx-canvas" aria-hidden="true"></canvas>
-  <div class="cursor-aura" id="cursor-aura" aria-hidden="true"></div>
+    <p>hi</p>
 
-  <!-- Navigation Header -->
-  <header class="header">
-    <div class="container nav-container">
-      <a href="#about" class="logo" aria-label="A K A I home">A K A I</a>
-      <div class="nav-actions">
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme" title="Switch Theme">
-          <i class="fas fa-sun"></i>
-        </button>
-        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="nav-links">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-    </div>
-  </header>
-  <div class="nav-backdrop" id="nav-backdrop" hidden></div>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#about" class="active">About</a></li>
-    <li><a href="#missions">Missions</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#achievements">Awards</a></li>
-    <li><a href="#blog">Blog</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    <p>
+      if you want the longer version, my resume is
+      <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf">here</a>.
+      a few writeups live in the
+      <a href="notes.html">notes</a>.
+    </p>
 
-  <main>
-    <!-- Hero / live field -->
-    <section class="hero field-hero section" id="about">
-      <div class="drift-layer" id="drift-layer" aria-hidden="true">
-        <span class="drift-chip" data-x="8" data-y="18" data-depth="28">Agents</span>
-        <span class="drift-chip" data-x="78" data-y="14" data-depth="22">SLMs</span>
-        <span class="drift-chip" data-x="88" data-y="42" data-depth="34">TensorRT</span>
-        <span class="drift-chip" data-x="6" data-y="62" data-depth="20">Neo4j</span>
-        <span class="drift-chip" data-x="82" data-y="72" data-depth="26">Red team</span>
-        <span class="drift-chip" data-x="14" data-y="84" data-depth="18">DeepStream</span>
-        <span class="drift-chip" data-x="70" data-y="88" data-depth="30">Claude SDK</span>
-      </div>
-      <div class="container hero-stage">
-        <div class="hero-content">
-          <div class="hero-badge">
-            <span class="pulse-dot"></span> LIVE SIGNAL · SENIOR AI / ML ENGINEER
-          </div>
-          <h1 class="hero-name">Aravind Kumar R</h1>
-          <h2 class="hero-title">I ship agents, SLMs, and GPU vision — then red-team them until they hold.</h2>
-          <p class="hero-description">
-            7+ years from NVIDIA DeepStream lanes to KnowBe4’s agent stack.
-            <strong>8× faster CV inference</strong>, graphs for <strong>1M+ learners</strong>,
-            and a <strong>hackathon-winning red-team agent</strong> that pentests other agents.
-          </p>
+    <p>
+      anyways, i'm aravind, a senior machine learning engineer.
+      i like building agents, small language models, and computer vision
+      systems — then checking that they still behave when someone tries to break them.
+    </p>
 
-          <ul class="hud-stats" aria-label="Career highlights">
-            <li class="react-tilt"><span class="hud-num">3</span><span class="hud-label">Competitions</span></li>
-            <li class="react-tilt"><span class="hud-num">7+</span><span class="hud-label">Years shipped</span></li>
-            <li class="react-tilt"><span class="hud-num">1M+</span><span class="hud-label">Learners</span></li>
-            <li class="react-tilt"><span class="hud-num">8×</span><span class="hud-label">Faster CV</span></li>
-          </ul>
+    <p>
+      i'm at <a href="https://www.knowbe4.com/" target="_blank" rel="noopener">KnowBe4</a>,
+      on AIDA: agentic phishing simulations, training recommendations from employee risk,
+      and a prompt-injection classifier that pushed inference throughput about 6×.
+      before that i built learning systems at LearnTube.ai for over a million people,
+      including a Neo4j graph of skills and courses, and real-time video pipelines at
+      <a href="https://www.e2ehiring.com" target="_blank" rel="noopener">DIATOZ</a>
+      — an 8× speedup with NVIDIA DeepStream and TensorRT.
+    </p>
 
-          <div class="hero-buttons">
-            <a href="#missions" class="btn btn-primary">
-              <i class="fas fa-layer-group"></i> Enter missions
-            </a>
-            <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf" target="_blank" class="btn btn-secondary">
-              <i class="fas fa-file-pdf"></i> Resume
-            </a>
-            <a href="#contact" class="btn btn-secondary">
-              <i class="fas fa-paper-plane"></i> Contact
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <p>
+      some things i've built:
+      an autonomous red-teaming agent that pentests other agents
+      (our team won the KnowBe4 AI Hackathon, Bengaluru 2026),
+      <a href="https://github.com/AravindKumar-AI/IllustratED" target="_blank" rel="noopener">IllustratED</a>
+      (history, science, and math as pictures for kids),
+      <a href="https://github.com/AravindKumar-AI/WhiZED" target="_blank" rel="noopener">WhiZED</a>
+      (a Socratic tutor on Gemma), and
+      <a href="https://github.com/AravindKumar-AI/juno" target="_blank" rel="noopener">Juno</a>
+      (spoken English practice).
+      i also like the unglamorous part: classifiers that stay fast, graphs that stay useful,
+      and guardrails that actually hold.
+    </p>
 
-    <!-- Hackathon Missions -->
-    <section class="section missions-section" id="missions">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">00.</span> Hackathon Missions &amp; Lab Builds
-        </h2>
-        <p class="section-subtitle">Select a block — each tile is a looping scene, like a GIF cartridge for the build.</p>
+    <p>
+      outside of work i keep coming back to teaching — language, pictures, kids who
+      don't get a patient tutor otherwise.
+    </p>
 
-        <div class="mission-filters" id="mission-filters">
-          <button type="button" class="filter-btn active" data-kind="all">All</button>
-          <button type="button" class="filter-btn" data-kind="hackathon">Hackathons</button>
-          <button type="button" class="filter-btn" data-kind="build">Lab builds</button>
-        </div>
+    <p>
+      reach out to me at aravindkumar-ai [at] outlook [dot] com
+    </p>
 
-        <div class="mission-grid" id="mission-grid">
-          <!-- Loaded from content/projects.json -->
-        </div>
-      </div>
-    </section>
+    <p>thanks!</p>
 
-    <!-- Experience Timeline Section -->
-    <section class="section" id="experience">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">02.</span> Professional Experience
-        </h2>
-        <p class="section-subtitle">Over 7 years of building, deploying, and scaling AI/ML systems in high-growth environments</p>
-
-        <div class="timeline">
-
-          <!-- Experience 1: KnowBe4 -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <div class="timeline-date">Feb 2024 - Present</div>
-              <div class="timeline-location">Bengaluru, Karnataka, India</div>
-            </div>
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3 class="role-title">Senior Machine Learning Engineer</h3>
-              <div class="company-name">KnowBe4 <span
-                  style="font-weight:400; font-size:0.85rem; color:var(--text-muted);">(Total Tenure: Feb 2024 - Present • 2 yrs 7 mos)</span></div>
-              <div style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.75rem; font-family: var(--font-mono);">
-                Senior Machine Learning Engineer (Jan 2026 - Present) • Machine Learning Engineer (Feb 2024 - Jan 2026)
-              </div>
-              <ul class="bullet-list">
-                <li><strong>AIDA (Artificial Intelligence Defense Agents):</strong> Architected and deployed agentic capabilities within AIDA, building automated phishing template generation for adaptive phishing simulations and personalized training recommendations driven by employee <strong>RiskScore</strong> metrics.</li>
-                <li><strong>Agent Security & Prompt Injection Defense:</strong> Engineered a prompt injection classifier based on <strong>EmbeddingGemma</strong> with custom classification heads, optimized inference pipelines using <strong>vLLM</strong> and GPU acceleration, boosting inference throughput by <strong>6x</strong> with low latency.</li>
-                <li><strong>LangChain LLM Workflows:</strong> Designed and deployed LangChain-based production pipelines for automated quiz generation from compliance policy documents and course modules, and built a multi-level <strong>hierarchical multi-label, multi-class classification engine (124 classes)</strong> for training module categorization and content discovery.</li>
-                <li><strong>Autonomous Red Teaming Agent (Hackathon Winner Team):</strong> Built an autonomous Red Teaming Agent that systematically pentests other AI agents to uncover prompt injection flaws, jailbreak vulnerabilities, and guardrail bypasses. Our team awarded <strong>1st Place (Winner)</strong> in the KnowBe4 AI Hackathon Bengaluru 2026.</li>
-                <li><strong>Agentic Workflows & Safety:</strong> Spearheaded agentic evaluation pipelines and developer automation utilizing the <strong>Claude Agent SDK</strong> and <strong>Claude Code</strong> for automated agent auditing and internal security testing.</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Experience 2: LearnTube.ai -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <div class="timeline-date">Oct 2021 - Aug 2023</div>
-              <div class="timeline-location">Mumbai, Maharashtra, India</div>
-            </div>
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3 class="role-title">Machine Learning Engineer</h3>
-              <div class="company-name">LearnTube.ai | CareerNinja (BeNinja Solutions) <span
-                  style="font-weight:400; font-size:0.85rem; color:var(--text-muted);">(1 yr 11 mos)</span></div>
-              <ul class="bullet-list">
-                <li>Spearheaded core AI/ML systems powering an AI-driven learning platform serving <strong>over 1,000,000 learners</strong>, reducing end-to-end curriculum and content generation cycles from days to under 2 hours.</li>
-                <li>Engineered, deployed, and scaled a <strong>Neo4j Knowledge Graph</strong> recommendation system connecting skills, learning objectives, and course videos to deliver dynamic personalized learning pathways.</li>
-                <li>Built automated AI video dubbing pipeline orchestrating Whisper speech-to-text (ASR), neural machine translation, and multilingual voice synthesis to localize educational video content into regional Indian languages.</li>
-                <li>Architected an NLP discovery engine leveraging <strong>BERTopic, KeyBERT, and automated web crawlers</strong> to ingest, topic-model, and rank educational YouTube videos with sub-second retrieval latency.</li>
-                <li>Developed production Generative AI features including Instant Doubt Solving, AI Question Generation, and Summarization using GPT-4, Claude, LLaMA, and open-source foundation models.</li>
-                <li>Awarded the <strong>Best Employee Award (2022)</strong> for instrumental engineering leadership and delivery of flagship GenAI capabilities.</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Experience 3: DIATOZ -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <div class="timeline-date">Aug 2019 - Oct 2021</div>
-              <div class="timeline-location">Bengaluru, Karnataka, India</div>
-            </div>
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3 class="role-title">Senior SDE - Applied AI / SDE - Applied AI</h3>
-              <div class="company-name">DIATOZ Solutions <span
-                  style="font-weight:400; font-size:0.85rem; color:var(--text-muted);">(Total Tenure: 2 yrs 3 mos)</span></div>
-              <div style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.75rem; font-family: var(--font-mono);">
-                Senior Software Development Engineer - Applied AI (Sep 2020 - Oct 2021) • Software Development Engineer - Applied AI (Aug 2019 - Sep 2020)
-              </div>
-              <ul class="bullet-list">
-                <li>Led an engineering team of 4 in designing, deploying, and maintaining AI engines for <strong>E2Ehiring</strong> (<a href="https://www.e2ehiring.com" target="_blank" rel="noopener">e2ehiring.com</a>), an AI recruitment platform featuring automated resume information extraction (LayoutLM / OCR), candidate-job matching algorithms, and automated interview assessment scoring.</li>
-                <li>Delivered an <strong>8x inference speedup</strong> across real-time video analytics pipelines by migrating deep learning models to <strong>NVIDIA DeepStream, TensorRT, and Triton Inference Server</strong> with FP16/INT8 model quantization.</li>
-                <li>Led a 3-engineer squad to build and maintain <strong>Ezevision</strong>, a SaaS traffic analytics platform providing real-time multi-camera vehicle detection, speed estimation, and congestion monitoring.</li>
-                <li>Built multi-lingual customer support conversational agents supporting 4 Indian languages for a tier-1 Indian infrastructure enterprise utilizing RASA, DialogFlow, and custom BERT intent classifiers.</li>
-                <li>Authored production deployment standards and mentored engineers on containerized microservice architectures using Docker, FastAPI, and GPU acceleration.</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Experience 4: Emerson -->
-          <div class="timeline-item">
-            <div class="timeline-meta">
-              <div class="timeline-date">Mar 2018 - Oct 2018</div>
-              <div class="timeline-location">Chennai, Tamil Nadu, India</div>
-            </div>
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3 class="role-title">Project Management Trainee - GAT</h3>
-              <div class="company-name">Emerson Automation Solutions <span
-                  style="font-weight:400; font-size:0.85rem; color:var(--text-muted);">(8 mos)</span></div>
-              <ul class="bullet-list">
-                <li>Assisted Project Manager in delivering the facility's first advanced High-Integrity Pressure Protection System (HIPPS), coordinating technical specifications, quality requirements, and cross-functional expert reviews.</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Matrix Section -->
-    <section class="section" id="skills">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">03.</span> Technical Expertise
-        </h2>
-        <p class="section-subtitle">Core skills across Autonomous AI Agents, LLMs, Computer Vision, MLOps, and Knowledge Graphs</p>
-
-        <div class="skills-grid">
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-robot"></i> AI Agents & Generative AI
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">Autonomous AI Agents</span>
-              <span class="tag">Claude Agent SDK</span>
-              <span class="tag">Claude Code</span>
-              <span class="tag">Multi-Agent Systems</span>
-              <span class="tag">AI Red Teaming & Pentesting</span>
-              <span class="tag">Tool / Function Calling</span>
-              <span class="tag">LangChain</span>
-              <span class="tag">LangGraph</span>
-              <span class="tag">LlamaIndex</span>
-              <span class="tag">RAG</span>
-              <span class="tag">Prompt Engineering</span>
-              <span class="tag">Fine-Tuning (PEF - LoRA, QLoRA)</span>
-              <span class="tag">Small Language Models (SLM)</span>
-              <span class="tag">Large Language Models (LLM)</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-brain"></i> Deep Learning & Machine Learning
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">PyTorch</span>
-              <span class="tag">TensorFlow</span>
-              <span class="tag">Keras</span>
-              <span class="tag">Scikit-learn</span>
-              <span class="tag">Hugging Face Transformers</span>
-              <span class="tag">EmbeddingGemma</span>
-              <span class="tag">Hierarchical Multi-label Classification</span>
-              <span class="tag">Quantization (GGUF, AWQ, INT8/FP16)</span>
-              <span class="tag">Vector Embeddings</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-language"></i> Natural Language Processing (NLP)
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">BERTopic</span>
-              <span class="tag">KeyBERT</span>
-              <span class="tag">BERT / BART / T5</span>
-              <span class="tag">LayoutLM</span>
-              <span class="tag">SpaCy</span>
-              <span class="tag">NLTK</span>
-              <span class="tag">Speech Recognition (ASR / STT)</span>
-              <span class="tag">Text-to-Speech (TTS)</span>
-              <span class="tag">Multi-lingual AI Dubbing</span>
-              <span class="tag">RASA / DialogFlow</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-eye"></i> Computer Vision
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">OpenCV</span>
-              <span class="tag">YOLO (v5/v8)</span>
-              <span class="tag">NVIDIA DeepStream</span>
-              <span class="tag">Object Detection</span>
-              <span class="tag">Instance Segmentation</span>
-              <span class="tag">Real-time Video Analytics</span>
-              <span class="tag">Image Classification</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-server"></i> MLOps & High-Performance Serving
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">vLLM</span>
-              <span class="tag">NVIDIA TensorRT</span>
-              <span class="tag">Triton Inference Server</span>
-              <span class="tag">Docker</span>
-              <span class="tag">FastAPI</span>
-              <span class="tag">Flask</span>
-              <span class="tag">Linux</span>
-              <span class="tag">CI/CD</span>
-              <span class="tag">Streamlit</span>
-              <span class="tag">GPU Acceleration</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-database"></i> Cloud & Distributed Data
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">AWS (SageMaker, Lambda, EC2, S3, CloudWatch)</span>
-              <span class="tag">Google Cloud Platform (GCP)</span>
-              <span class="tag">Neo4j (Graph DB)</span>
-              <span class="tag">Vector DBs (Pinecone, Chroma, Milvus)</span>
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">MySQL</span>
-              <span class="tag">MongoDB</span>
-              <span class="tag">Elasticsearch</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-category">
-              <i class="fas fa-code"></i> Programming Languages
-            </div>
-            <div class="tags-wrapper">
-              <span class="tag">Python</span>
-              <span class="tag">C++</span>
-              <span class="tag">SQL</span>
-              <span class="tag">Bash</span>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Achievements & Education Section -->
-    <section class="section" id="achievements" style="background: var(--bg-secondary);">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">04.</span> Honors, Awards & Education
-        </h2>
-        <p class="section-subtitle">Industry awards, published research, and academic qualifications</p>
-
-        <div class="grid-2" style="margin-bottom: 3rem;">
-
-          <!-- Award 1 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <div class="card-badge"><i class="fas fa-trophy" style="color: #eab308;"></i> Winner Team</div>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2026</span>
-              </div>
-              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">KnowBe4 AI Hackathon Bengaluru 2026</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                <strong>1st Place (Winner Team):</strong> Built an autonomous Red Team Hacking Agent that systematically pentests other AI agents to uncover prompt injection flaws, jailbreak vulnerabilities, and guardrail bypasses.
-              </p>
-            </div>
-          </div>
-
-          <!-- Award 2 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <div class="card-badge"><i class="fas fa-award" style="color: #eab308;"></i> Runners Up</div>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2024</span>
-              </div>
-              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">Matrix — Engineering Innovation Summit 2024</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                <strong>Runners Up:</strong> Data enhancement for training recommendations and phishing simulations for new users with no previously known profile or behavioral data.
-              </p>
-            </div>
-          </div>
-
-          <!-- Award 3 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <div class="card-badge"><i class="fas fa-star" style="color: #10b981;"></i> Best Employee</div>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2022</span>
-              </div>
-              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">Best Employee Award - LearnTube.ai / CareerNinja</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                Conferred for outstanding impact in scaling GenAI features and Neo4j graph recommendations to 1M+ users.
-              </p>
-            </div>
-          </div>
-
-          <!-- Award 4 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <div class="card-badge"><i class="fas fa-book" style="color: #3b82f6;"></i> IEEE Research</div>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2017</span>
-              </div>
-              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">Best Paper Award - IEEE Sponsored ICRAET</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                Primary author of research paper on <em>"AURATER: Autonomous Unmanned Rover with Advanced Trash Eliminating Robot"</em> presented at the International Conference on Recent Advances in Engineering and Technology.
-              </p>
-            </div>
-          </div>
-
-          <!-- Award 5 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <div class="card-badge"><i class="fas fa-graduation-cap" style="color: #8b5cf6;"></i> Academic</div>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2017</span>
-              </div>
-              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">Achieving Student Award</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                Conferred by Sri Krishna College of Engineering and Technology for academic and technological innovation.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-        <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem;">Education Background</h3>
-        <div class="grid-2">
-
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span style="font-weight: 700; color: var(--text-primary);">Bachelor of Engineering (B.E.)</span>
-                <span class="card-badge">2015 - 2018</span>
-              </div>
-              <h4 style="font-size: 1.1rem; color: var(--accent-primary); margin-bottom: 0.25rem;">Mechatronics Engineering</h4>
-              <p style="font-size: 0.9rem; margin-bottom: 0.25rem; color: var(--text-primary);">Sri Krishna College of Engineering and Technology</p>
-              <div style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
-                Coimbatore, Tamil Nadu, India • <strong>CGPA: 8.37 / 10</strong>
-              </div>
-              <div style="font-size: 0.8rem; color: var(--accent-secondary); font-family: var(--font-mono);">NIRF Top 100 Engineering Institution</div>
-            </div>
-          </div>
-
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span style="font-weight: 700; color: var(--text-primary);">Diploma</span>
-                <span class="card-badge">2012 - 2015</span>
-              </div>
-              <h4 style="font-size: 1.1rem; color: var(--accent-primary); margin-bottom: 0.25rem;">Mechanical Engineering</h4>
-              <p style="font-size: 0.9rem; margin-bottom: 0.25rem; color: var(--text-primary);">Nachimuthu Polytechnic College</p>
-              <div style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
-                Coimbatore, Tamil Nadu, India • <strong>Cumulative Percentage: 88%</strong>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section class="section" id="certifications">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">05.</span> Certifications & Credentials
-        </h2>
-        <p class="section-subtitle">Industry-recognized credentials in AI Architecture, Generative AI, and Cloud</p>
-
-        <div class="grid-2">
-
-          <!-- Cert 1 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #60a5fa;"><i class="fas fa-certificate"></i> Anthropic</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">Aug 2026</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Claude Certified Architect - Foundations (CCAF)</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Comprehensive certification on architecting systems with Anthropic's Claude, tool use, and agentic patterns.
-              </p>
-            </div>
-            <div>
-              <a href="https://www.credly.com/badges/cfe9c88c-095d-41c7-b594-3db6c07cf153/linked_in?t=tjz3d7" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> Verify Badge on Credly
-              </a>
-            </div>
-          </div>
-
-          <!-- Cert 2 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #f59e0b;"><i class="fab fa-aws"></i> AWS</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">Active / July 2026</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">AWS Certified AI Practitioner</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Amazon Web Services credential covering AI/ML concepts, generative AI technologies, and AWS AI services.
-              </p>
-            </div>
-            <div>
-              <a href="https://www.credly.com/badges/278b3023-9164-4886-a26c-9c48c84658c5" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> Verify Badge on Credly
-              </a>
-            </div>
-          </div>
-
-          <!-- Cert 3 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #f59e0b;"><i class="fab fa-aws"></i> AWS</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">Active / June 2025</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">AWS Certified Cloud Practitioner</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Foundational Amazon Web Services certification spanning core cloud architecture, security, and infrastructure.
-              </p>
-            </div>
-            <div>
-              <a href="https://www.credly.com/badges/809ee6f7-711c-49a7-b60c-0cfc955c9e86/public_url" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> Verify Badge on Credly
-              </a>
-            </div>
-          </div>
-
-          <!-- Cert 4 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #10b981;"><i class="fas fa-graduation-cap"></i> The School of AI</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">2024 - 2025</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Extensive and Re-imagined AI Program v3</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Rigorous deep-dive into advanced Generative AI, PyTorch architectures, LLMs, and multi-modal systems.
-              </p>
-            </div>
-            <div>
-              <a href="https://theschoolof.ai/#programs:~:text=REIMAGINED%20AI%20PROGRAM-,ERA,-%2D%20V5" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> View Program Curriculum
-              </a>
-            </div>
-          </div>
-
-          <!-- Cert 5 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #8b5cf6;"><i class="fas fa-brain"></i> DeepLearning.AI & AWS</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">Nov 2023</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Generative AI with Large Language Models</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Advanced training on the complete LLM lifecycle, parameter-efficient fine-tuning (PEFT/LoRA), and RLHF.
-              </p>
-            </div>
-            <div>
-              <a href="https://www.coursera.org/account/accomplishments/verify/NFQ2V8C3LHP5" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> Verify on Coursera
-              </a>
-            </div>
-          </div>
-
-          <!-- Cert 6 -->
-          <div class="info-card">
-            <div>
-              <div class="card-header">
-                <span class="card-badge" style="color: #0284c7;"><i class="fab fa-linkedin"></i> Microsoft & LinkedIn</span>
-                <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-primary);">July 2023</span>
-              </div>
-              <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Career Essentials in Generative AI</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-                Core principles of Generative AI, foundations of transformer models, and real-world ethical workflows.
-              </p>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/learning/certificates/1ca1e3bc3ad5f8488e96006816dc12b863fd81f59f8788811ea384d4ba3312e3" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.4rem 0.8rem;">
-                <i class="fas fa-external-link-alt"></i> Verify on LinkedIn
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Technical Blog Section -->
-    <section class="section" id="blog" style="background: var(--bg-secondary);">
-      <div class="container">
-        <h2 class="section-title">
-          <span class="number">06.</span> Technical Blog & Notes
-        </h2>
-        <p class="section-subtitle">Articles on AI Agents, LLM fine-tuning, computer vision optimization, and system design</p>
-
-        <!-- Search & Filter Bar -->
-        <div class="blog-controls">
-          <div class="search-box">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" id="blog-search" class="search-input"
-              placeholder="Search blogs by title, topic, or keyword...">
-          </div>
-
-          <div class="filter-tags" id="filter-tags">
-            <!-- Dynamically populated tags -->
-          </div>
-        </div>
-
-        <!-- Blog Cards Grid -->
-        <div class="blog-grid" id="blog-grid">
-          <!-- Dynamically loaded via assets/js/blog.js -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section" id="contact">
-      <div class="container" style="text-align: center; max-width: 720px;">
-        <h2 class="section-title" style="justify-content: center;">
-          <span class="number">07.</span> Get In Touch
-        </h2>
-        <p class="section-subtitle">Open for AI engineering leadership, consulting, and technical collaboration</p>
-
-        <p style="margin-bottom: 2rem; font-size: 1.05rem; color: var(--text-secondary);">
-          Whether you want to discuss building autonomous AI agents, fine-tuning language models, or
-          hardware-accelerated computer vision, feel free to reach out.
-        </p>
-
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
-          <a href="mailto:aravindkumar-ai@outlook.com" class="btn btn-primary">
-            <i class="fas fa-envelope"></i> aravindkumar-ai@outlook.com
-          </a>
-          <a href="https://www.linkedin.com/in/aravindkumar-ai" target="_blank" rel="noopener"
-            class="btn btn-secondary">
-            <i class="fab fa-linkedin"></i> Connect on LinkedIn
-          </a>
-          <a href="https://github.com/AravindKumar-AI" target="_blank" rel="noopener" class="btn btn-secondary">
-            <i class="fab fa-github"></i> GitHub Profile
-          </a>
-          <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf" target="_blank" class="btn btn-secondary">
-            <i class="fas fa-file-pdf"></i> Download Resume
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Mission detail modal -->
-  <div class="modal-overlay" id="mission-modal" role="dialog" aria-modal="true" aria-labelledby="mission-modal-title">
-    <button class="modal-close" onclick="closeMission()" aria-label="Back">
-      <i class="fas fa-arrow-left"></i> Back
-    </button>
-    <div class="modal-container mission-modal-container">
-      <div id="mission-modal-body"></div>
-    </div>
+    <nav class="footer">
+      <a href="assets/Aravind_Kumar_AI_ML_Engineer_Resume.pdf">resume</a>
+      <a href="mailto:aravindkumar-ai@outlook.com">email</a>
+      <a href="https://github.com/AravindKumar-AI" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/aravindkumar-ai" target="_blank" rel="noopener">linkedin</a>
+      <a href="notes.html">notes</a>
+    </nav>
   </div>
 
-  <!-- Blog Reading Modal -->
-  <div class="modal-overlay" id="blog-modal">
-    <button class="modal-close" onclick="closeBlogModal()" aria-label="Back">
-      <i class="fas fa-arrow-left"></i> Back
-    </button>
-    <div class="modal-container">
-      <div id="modal-markdown-body">
-        <!-- Markdown rendered content will load here -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>© <span id="year"></span> Aravind Kumar R. Built for GitHub Pages.</p>
-    </div>
-  </footer>
-
-  <!-- External Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
-
-  <!-- Application Scripts -->
-  <script src="assets/js/app.js"></script>
-  <script src="assets/js/field.js"></script>
-  <script src="assets/js/projects.js"></script>
-  <script src="assets/js/blog.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <span class="byline">aravind kumar r</span>
 </body>
 
 </html>
