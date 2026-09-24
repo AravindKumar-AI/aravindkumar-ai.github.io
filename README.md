@@ -9,9 +9,31 @@ A short, type-only portfolio for **Aravind Kumar** (Senior AI & Machine Learning
 
 ## Key features
 
-- **GitHub Pages native**: HTML, CSS, and a small posts script. No build step.
+- **GitHub Pages native**: the site serves the generated HTML, CSS, and a small posts script.
+- **Pages are Markdown**: edit `content/pages/`, then render HTML with `python3 scripts/render.py`.
 - **Homepage**: a narrow column of prose, with the same links in the top bar.
 - **Posts**: `posts.html` loads the Markdown posts in `content/posts/` from `content/blogs.json`.
+
+---
+
+## Editing a page
+
+Home, posts, projects, resume, and the notes redirect are Markdown files in `content/pages/`:
+
+| File | Page |
+| --- | --- |
+| `content/pages/index.md` | `index.html` |
+| `content/pages/posts.md` | `posts.html` |
+| `content/pages/projects.md` | `projects.html` |
+| `content/pages/resume.md` | `resume.html` |
+| `content/pages/notes.md` | `notes.html` (sends people to posts) |
+
+```bash
+python3 -m pip install -r scripts/requirements.txt
+python3 scripts/render.py
+```
+
+Write normal Markdown. A paragraph that is only italics, such as `*2026 · Bengaluru*`, renders as the gray meta line. On the posts page, a link on its own followed by one of those lines becomes a listed article. A line that is exactly `{{posts}}` is where the on-site essays are inserted. Each essay is still a file in `content/posts/`, registered in `content/blogs.json`.
 
 ---
 
