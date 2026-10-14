@@ -1,0 +1,103 @@
+@font-face{font-family:AppOutfit;src:url('../apps/fonts/Outfit-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:AppOutfit;src:url('../apps/fonts/Outfit-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:AppNunito;src:url('../apps/fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 900;font-display:swap}
+.app-page{--ink:#172232;--muted:#4f5e70;--accent:#0062cc;--accent-dark:#004fa8;--tint:#e4f0ff;--canvas:#f7f9fc;--line:#dce3ed;background:var(--canvas);color:var(--ink);font-family:AppOutfit,system-ui,sans-serif;font-size:17px;line-height:1.65;padding-bottom:0}
+.app-page.suvadi{--ink:#20344a;--muted:#526174;--accent:#b91e58;--accent-dark:#941444;--tint:#ffe9ef;--canvas:#fff9f0;--line:#e4dfd5;font-family:AppNunito,system-ui,sans-serif}
+.app-page[lang=ta],html[lang=ta] .app-page{font-family:AppNunito,'Tamil Sangam MN','Nirmala UI','Noto Sans Tamil',system-ui,sans-serif}
+.app-page .wrap{max-width:1120px;width:calc(100% - 64px)}
+.app-page .topnav{margin:0;background:var(--canvas);border-bottom:1px solid var(--line);padding:16px 32px;position:relative}
+.app-page .topnav-inner{max-width:1120px;gap:12px 22px}
+.app-page .topnav a{color:var(--muted);font-size:10px}
+.app-page a{color:var(--accent);text-underline-offset:4px}
+.app-page a:focus-visible,.app-page summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:4px}
+.app-page .skip-link{position:absolute;left:16px;top:-100px;z-index:50;background:white;padding:12px 20px}
+.app-page .skip-link:focus{top:12px}
+.app-page .app-nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 0}
+.app-page .brand{display:flex;gap:12px;align-items:center;font-weight:700;font-size:24px;color:var(--ink);text-decoration:none;letter-spacing:-.6px}
+.app-page .brand img{width:40px;height:40px;border-radius:12px}
+.app-page .brand .brand-sub{display:block;font-size:11px;letter-spacing:.04em;font-weight:400;color:var(--muted)}
+.app-page .app-nav-links{display:flex;gap:24px;align-items:center;font-size:14px}
+.app-page .app-nav-links a{text-decoration:none}
+.app-page .language-switch{display:flex;gap:4px;padding:4px;background:#fff;border:1px solid var(--line);border-radius:30px}
+.app-page .language-switch a{padding:6px 12px;border-radius:24px;color:var(--muted);font-size:13px}
+.app-page .language-switch a[aria-current]{background:var(--ink);color:white}
+.app-page .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:700;color:var(--accent);margin-bottom:18px;display:flex;gap:10px;align-items:center}
+.app-page .eyebrow::before{content:'';width:20px;height:2px;background:currentColor}
+.app-page .hero{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:56px;padding:48px 0 72px}
+.app-page h1{font-size:clamp(42px,5.6vw,72px);line-height:1.07;letter-spacing:-2.8px;font-weight:700;margin-bottom:26px}
+.app-page h1 span{color:var(--accent)}
+.app-page .lead{font-size:19px;max-width:510px;color:var(--muted);line-height:1.65;margin-bottom:28px}
+.app-page .hero .badge-row{margin-top:28px}
+.app-page .badge-row{display:flex;gap:9px;flex-wrap:wrap}
+.app-page .badge{background:#fff;border:1px solid var(--line);border-radius:24px;padding:6px 13px;font-size:12px;color:var(--muted)}
+.app-page .actions{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.app-page .play-button{display:inline-flex;align-items:center;gap:13px;background:var(--accent);color:#fff;border:1px solid var(--accent-dark);border-bottom:5px solid var(--accent-dark);border-radius:14px;padding:12px 23px;text-decoration:none;font-weight:700;font-size:16px;line-height:1.35;transition:transform .12s}
+.app-page .play-button:hover{background:var(--accent-dark);transform:translateY(-2px)}
+.app-page .play-button:active{transform:translateY(2px)}
+.app-page .play-button svg{width:25px;height:28px;flex-shrink:0;fill:currentColor}
+.app-page .play-button small{display:block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:400;margin-bottom:2px}
+.app-page .text-link{font-size:14px;font-weight:700}
+.app-page .fine-print{font-size:12px;color:var(--muted);margin:14px 0 0;max-width:450px}
+.app-page .hero-art{position:relative;min-height:540px;display:flex;align-items:center;justify-content:center;background:var(--tint);border-radius:140px 140px 44px 44px;padding:36px}
+.app-page .phone-shot{width:252px;height:auto;border:7px solid #fff;border-radius:24px;box-shadow:0 24px 50px #17334c20;display:block}
+.app-page .floating-label{position:absolute;padding:12px 18px;border-radius:15px;background:white;border:1px solid var(--line);border-bottom:4px solid var(--line);font-weight:700;font-size:16px;box-shadow:0 8px 20px #17334c0a}
+.app-page .float-top{top:62px;left:-20px;transform:rotate(-7deg)}
+.app-page .float-bottom{bottom:62px;right:-20px;transform:rotate(5deg)}
+.app-page .float-top small,.app-page .float-bottom small{display:block;font-size:10px;color:var(--muted);font-weight:400;letter-spacing:.05em}
+.app-page .strip{display:flex;justify-content:space-between;gap:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px}
+.app-page .strip strong{display:block;color:var(--ink);font-size:21px;letter-spacing:-.5px;margin-bottom:2px}
+.app-page .section{padding:80px 0;border-bottom:1px solid var(--line);scroll-margin-top:20px}
+.app-page h2{font-size:clamp(30px,3.6vw,44px);font-weight:700;line-height:1.18;letter-spacing:-1.2px;margin-bottom:18px}
+.app-page .section-intro{max-width:650px;color:var(--muted);margin-bottom:36px;font-size:18px}
+.app-page .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.app-page .feature{padding:26px;border:1px solid var(--line);border-bottom:4px solid var(--line);background:white;border-radius:22px}
+.app-page .feature-number{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--tint);border-radius:12px;color:var(--accent);font-weight:700;margin-bottom:22px;font-size:13px}
+.app-page h3{font-size:22px;font-weight:700;line-height:1.3;letter-spacing:-.4px;margin-bottom:12px}
+.app-page .feature p{color:var(--muted);font-size:15px;margin:0}
+.app-page .screenshot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.app-page figure{min-width:0}
+.app-page .screenshot-grid img{width:100%;height:auto;border:1px solid var(--line);border-radius:18px;display:block;background:#fff}
+.app-page figcaption{font-size:13px;color:var(--muted);padding:14px 2px 0}
+.app-page figcaption strong{display:block;font-size:16px;color:var(--ink);margin-bottom:3px}
+.app-page .language-list,.app-page .topic-list{list-style:none;margin:0;display:flex;flex-wrap:wrap;gap:10px}
+.app-page .language-list li,.app-page .topic-list li{background:white;border:1px solid var(--line);border-radius:12px;padding:11px 18px;font-size:15px}
+.app-page .language-list span{color:var(--muted);margin-left:8px;font-size:13px}
+.app-page .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.app-page .notice{background:var(--tint);border-radius:24px;padding:32px;color:var(--ink)}
+.app-page .notice h3{font-size:24px}
+.app-page .notice p{font-size:15px;margin-bottom:16px}
+.app-page .notice p:last-child{margin-bottom:0}
+.app-page .steps{list-style:none;counter-reset:step;margin:0}
+.app-page .steps li{counter-increment:step;position:relative;padding-left:52px;margin:0 0 26px;font-size:15px;color:var(--muted)}
+.app-page .steps li::before{content:counter(step,decimal-leading-zero);position:absolute;left:0;top:0;font-size:13px;font-weight:700;color:var(--accent);background:var(--tint);padding:6px 8px;border-radius:9px}
+.app-page .steps strong{display:block;color:var(--ink);font-size:18px;margin-bottom:3px}
+.app-page .faq{max-width:800px}
+.app-page details{border-bottom:1px solid var(--line);padding:20px 0}
+.app-page summary{font-weight:700;font-size:18px;cursor:pointer}
+.app-page details p{font-size:15px;color:var(--muted);margin:14px 0 0;padding-right:20px}
+.app-page .closing{margin:64px 0;background:var(--ink);color:white;border-radius:28px;padding:46px;display:flex;justify-content:space-between;align-items:center;gap:28px}
+.app-page .closing h2{font-size:34px;max-width:550px}
+.app-page .closing p{color:#e0e8f0;margin:0;font-size:16px}
+.app-page .closing .play-button{flex-shrink:0}
+.app-page .app-footer{max-width:1120px;width:calc(100% - 64px);margin:0 auto;padding:0 0 36px;color:var(--muted);font-size:13px}
+.app-page .app-footer a{color:var(--muted)}
+.app-page.suvadi .hero{grid-template-columns:1fr 1fr;gap:44px}
+.app-page.suvadi .hero-art{min-height:410px;border-radius:40px;background:#e1f3f9;padding:30px 20px 42px;display:flex;flex-direction:column;gap:24px}
+.app-page .wordmark{width:230px;height:auto;display:block;border-radius:20px}
+.app-page .landscape-shot{width:100%;height:auto;display:block;border:5px solid white;border-radius:15px;box-shadow:0 16px 30px #17334c18}
+.app-page.suvadi .float-top{top:20px;left:-15px;color:#16635a}
+.app-page.suvadi .float-bottom{bottom:-14px;right:16px;color:var(--accent)}
+.app-page.suvadi .screenshot-grid{grid-template-columns:repeat(2,1fr);gap:32px}
+.app-page.suvadi .screenshot-grid img{border:5px solid white;box-shadow:0 8px 24px #17334c0a}
+.app-page.suvadi .topic-list li:nth-child(3n+1){background:#e9f3e5}
+.app-page.suvadi .topic-list li:nth-child(3n+2){background:#fff0d2}
+.app-page.suvadi .topic-list li:nth-child(3n){background:#e8f3fa}
+html[lang=ta] .app-page h1{font-size:clamp(32px,4.2vw,52px);line-height:1.4;letter-spacing:-.5px}
+html[lang=ta] .app-page h2{font-size:clamp(26px,2.8vw,36px);line-height:1.5;letter-spacing:0}
+html[lang=ta] .app-page h3,html[lang=ta] .app-page summary{line-height:1.7;letter-spacing:0}
+html[lang=ta] .app-page .eyebrow{letter-spacing:0;font-size:13px}
+html[lang=ta] .app-page .brand{font-size:20px;letter-spacing:0}
+html[lang=ta] .app-page .closing{flex-direction:column;align-items:flex-start}
+@media(max-width:900px){.app-page .hero,.app-page.suvadi .hero{gap:30px}.app-page .hero-art{padding:26px;min-height:460px}.app-page .phone-shot{width:220px}.app-page h1{font-size:52px}.app-page .feature-grid{gap:14px}.app-page .feature{padding:22px}.app-page .split{gap:30px}.app-page .closing{padding:32px}.app-page .closing h2{font-size:28px}.app-page .screenshot-grid{gap:14px}}
+@media(max-width:700px){.app-page .wrap,.app-page .app-footer{width:calc(100% - 40px)}.app-page .topnav{padding:14px 20px}.app-page .topnav-inner{gap:10px 16px}.app-page .app-nav{padding:22px 0;gap:12px}.app-page .app-nav-links{gap:12px}.app-page .app-nav-links .section-link{display:none}.app-page .brand{font-size:21px}.app-page .hero,.app-page.suvadi .hero{grid-template-columns:1fr;padding:28px 0 48px;gap:36px}.app-page h1{font-size:clamp(42px,9vw,60px);letter-spacing:-1.8px}.app-page .lead{font-size:17px}.app-page .hero-art{min-height:460px;max-width:390px;width:calc(100% - 20px);margin:0 auto}.app-page.suvadi .hero-art{max-width:540px;min-height:0;padding:28px 18px 36px}.app-page .floating-label{padding:10px 12px;font-size:14px}.app-page .float-top{left:-10px}.app-page .float-bottom{right:-10px}.app-page .strip{gap:18px;flex-wrap:wrap}.app-page .strip>div{flex:1;min-width:100px}.app-page .strip strong{font-size:18px}.app-page .strip{font-size:12px}.app-page .section{padding:52px 0}.app-page .feature-grid,.app-page .split{grid-template-columns:1fr}.app-page .feature{padding:24px}.app-page .feature-number{margin-bottom:14px}.app-page .screenshot-grid{grid-template-columns:repeat(2,1fr);gap:24px 16px}.app-page.suvadi .screenshot-grid{grid-template-columns:1fr;gap:28px}.app-page .section-intro{font-size:16px}.app-page .notice{padding:26px}.app-page .closing{flex-direction:column;align-items:flex-start;padding:30px 24px;margin:42px 0}.app-page .closing h2{font-size:30px}.app-page .language-switch a{padding:6px 9px;font-size:12px}.app-page .brand .brand-sub{font-size:10px}html[lang=ta] .app-page .brand{font-size:15px}html[lang=ta] .app-page .brand img{width:32px;height:32px}html[lang=ta] .app-page .language-switch a{padding:6px 7px}}
+@media(prefers-reduced-motion:reduce){.app-page .play-button{transition:none}.app-page .play-button:hover{transform:none}}

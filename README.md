@@ -27,6 +27,9 @@ Home, posts, projects, resume, and the notes redirect are Markdown files in `con
 | `content/pages/projects.md` | `projects.html` |
 | `content/pages/resume.md` | `resume.html` |
 | `content/pages/notes.md` | `notes.html` (sends people to posts) |
+| `content/pages/stanza.md` | `stanza.html` (StanZa landing page) |
+| `content/pages/suvadi.md` | `suvadi.html` (Suvadi, English) |
+| `content/pages/suvadi-ta.md` | `suvadi-ta.html` (Suvadi, Tamil) |
 
 ```bash
 python3 -m pip install -r scripts/requirements.txt
@@ -34,6 +37,21 @@ python3 scripts/render.py
 ```
 
 Write normal Markdown. A paragraph that is only italics, such as `*2026 · Bengaluru*`, renders as the gray meta line. On the posts page, a link on its own followed by one of those lines becomes a listed article. A line that is exactly `{{posts}}` is where the on-site essays are inserted. Each essay is still a file in `content/posts/`, registered in `content/blogs.json`.
+
+The app pages use `layout: app` and `app: stanza` or `app: suvadi`. Their Markdown
+sources include semantic HTML for the hero, screenshot figures, and native FAQ
+disclosures. Edit these sources rather than generated HTML. `assets/css/apps.css`
+contains the scoped app themes; the portfolio stylesheet is unchanged.
+
+Optional front matter includes `lang`, `canonical`, `image`, `icon`,
+`alternate_en`, and `alternate_ta`. Canonical and social-preview URLs are resolved
+against the domain in `CNAME`. Suvadi's English/Tamil switch links static pages;
+it needs no JavaScript.
+
+Artwork and screenshots come from the app projects' October 2026 listing packs.
+`assets/apps/manifest.json` records source assets, output dimensions and sizes.
+StanZa screenshots show sample learning data. Suvadi captures retain the real
+landscape UI, including existing English control labels in Tamil screens.
 
 ---
 

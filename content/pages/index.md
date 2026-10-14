@@ -40,6 +40,10 @@ and guardrails that actually hold.
 outside of work i keep coming back to teaching — language, pictures, kids who
 don't get a patient tutor otherwise.
 
+i'm also building [StanZa](stanza.html), for Indian-language practice through
+cards, quizzes, and speaking, and [Suvadi](suvadi.html), for little ones
+discovering Tamil and English through pictures and spoken words.
+
 reach out to me at aravindkumar.ai [at] outlook [dot] com
 
 thanks!

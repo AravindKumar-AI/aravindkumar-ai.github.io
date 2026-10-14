@@ -1,0 +1,194 @@
+---
+title: மழலை சுவடி — தமிழிலும் ஆங்கிலத்திலும் மழலைகளுக்கான கற்றல்
+description: 2–6 வயது மழலைகள் படங்கள், சொற்களின் ஒலிப்புகள், எழுத்துகள், எண்கள், வினாடி வினா மூலம் தமிழையும் ஆங்கிலத்தையும் அறிந்துகொள்ள மழலை சுவடி உதவுகிறது.
+layout: app
+app: suvadi
+lang: ta
+canonical: suvadi-ta.html
+image: assets/apps/suvadi/social-ta.png
+icon: assets/apps/suvadi/icon.png
+alternate_en: suvadi.html
+alternate_ta: suvadi-ta.html
+---
+
+<div class="app-nav">
+<a class="brand" href="suvadi-ta.html">
+<img src="assets/apps/suvadi/icon.png" alt="" width="256" height="256" fetchpriority="high" decoding="async">
+<span>சுவடி<span class="brand-sub">மழலை சுவடி · Mazhalai Suvadi</span>
+</span>
+</a>
+<nav class="language-switch" aria-label="பக்கத்தின் மொழி">
+<a href="suvadi.html" lang="en" hreflang="en">English</a>
+<a href="suvadi-ta.html" lang="ta" hreflang="ta" aria-current="page">தமிழ்</a>
+</nav>
+</div>
+<section class="hero" aria-labelledby="hero-title">
+<div>
+<p class="eyebrow">மழலைகளுக்கும் பெற்றோருக்கும்</p>
+<h1 id="hero-title">சின்னச் சின்ன சொற்கள்.<br>
+<span>புதிய கண்டுபிடிப்புகள்.</span>
+</h1>
+<p class="lead">தமிழையும் ஆங்கிலத்தையும் மகிழ்ச்சியுடன் அறிந்துகொள்ள ஒரு தொடக்கம். மழலை சுவடி—சுருக்கமாக சுவடி—படங்களைப் பார்த்து, சொற்களைக் கேட்டு, புதிய விஷயங்களைக் கற்க உதவுகிறது.</p>
+<div class="actions">
+<a class="play-button" href="https://play.google.com/store/apps/details?id=com.bulbulkids.flashcards">
+<svg viewBox="0 0 24 28" aria-hidden="true">
+<path d="M2 1v26l21-13z"/>
+</svg>
+<span>
+<small>பதிவிறக்க</small>Google Play</span>
+</a>
+<a class="text-link" href="#inside">செயலியைப் பார்க்கலாம் ↓</a>
+</div>
+<p class="fine-print">Android · 2–6 வயது மழலைகளுக்கான கற்றல்</p>
+<div class="badge-row">
+<span class="badge">தமிழ் & ஆங்கிலம்</span>
+<span class="badge">படங்களும் ஒலிப்புகளும்</span>
+<span class="badge">சேர்ந்து கற்கலாம்</span>
+</div>
+</div>
+<div class="hero-art">
+<img src="assets/apps/suvadi/wordmark.webp" alt="சிறுமி மற்றும் புத்தகங்களுடன் வண்ணமயமான மழலை சுவடி இலச்சினை." width="600" height="287" fetchpriority="high" decoding="async" class="wordmark">
+<img src="assets/apps/suvadi/ta-home.webp" alt="எண்கள், எழுத்துகள், பறவைகள் ஆகிய தலைப்புகளுடன் மொழி மாற்றம் மற்றும் வினாடி வினா வசதிகளைக் காட்டும் சுவடியின் தமிழ்த் திரை." width="1200" height="540" fetchpriority="high" decoding="async" class="landscape-shot">
+<span class="floating-label float-top">அ · A</span>
+<span class="floating-label float-bottom">பார்க்கலாம். கேட்கலாம். கற்கலாம்.</span>
+</div>
+</section>
+<div class="strip">
+<div>
+<strong>இரு மொழிகள்</strong>தமிழ் & ஆங்கிலம்</div>
+<div>
+<strong>18 தலைப்புகள்</strong>அறிந்துகொள்ள ஒரு உலகம்</div>
+<div>
+<strong>2–6 வயது</strong>மழலைகளுக்காக</div>
+</div>
+<section class="section" aria-labelledby="practice-title">
+<p class="eyebrow">ஒவ்வொரு நாளும் புதிய கண்டுபிடிப்புகள்</p>
+<h2 id="practice-title">ஒரு படம். ஒரு சொல்.<br>கற்றலின் மகிழ்ச்சி.</h2>
+<p class="section-intro">ஆர்வத்துடன் அறிந்துகொள்ள எளிய படவழிக் கற்றல். குழந்தையுடன் அமர்ந்து பிடித்த சொற்களை மீண்டும் கேட்கலாம்; அவர்களின் வேகத்தில் கற்க உதவலாம்.</p>
+<div class="feature-grid">
+<div class="feature">
+<span class="feature-number" aria-hidden="true">01</span>
+<h3>பார்க்கலாம். கேட்கலாம். சொல்லலாம்.</h3>
+<p>வண்ணப் படங்களைப் பார்த்து, சொற்களின் ஒலிப்புகளைக் கேட்கலாம். மீண்டும் கேட்க படத்தைத் தொடலாம். அடுத்த படத்திற்குச் செல்லலாம் அல்லது தானியங்கி இயக்கத்தைப் பயன்படுத்தலாம்.</p>
+</div>
+<div class="feature">
+<span class="feature-number" aria-hidden="true">02</span>
+<h3>அ முதல் A வரை.</h3>
+<p>தமிழ், ஆங்கிலம் ஆகிய மொழிகளுக்கு இடையே மாறலாம். எடுத்துக்காட்டுச் சொற்களுடன் எழுத்துகள், எண்கள், வடிவங்கள், வண்ணங்கள் ஆகியவற்றை அறிந்துகொள்ளலாம்.</p>
+</div>
+<div class="feature">
+<span class="feature-number" aria-hidden="true">03</span>
+<h3>வினாடி வினாவுடன் பயிற்சி.</h3>
+<p>படங்களை அடையாளம் காணும் கேள்விகளுக்கும், ஒலியைக் கேட்டு விடையைத் தேர்ந்தெடுக்கும் கேள்விகளுக்கும் பதிலளிக்கலாம். சாதனத்தில் உள்ள கற்றல் உள்ளடக்கத்திலிருந்து வினாடி வினாக்கள் அமைக்கப்படுகின்றன.</p>
+</div>
+</div>
+</section>
+<section class="section" id="inside" aria-labelledby="screens-title">
+<p class="eyebrow">செயலியின் உள்ளே</p>
+<h2 id="screens-title">முதல் சொற்கள், இரு மொழிகளில்.</h2>
+<p class="section-intro">பெரிய படங்கள், தெளிவான ஒலிப்புகள், எளிய கிடைமட்டத் திரைகள்—குழந்தைகள் தங்கள் வேகத்தில் அறிந்துகொள்ளலாம்.</p>
+<div class="screenshot-grid">
+<figure>
+<img src="assets/apps/suvadi/ta-alphabets.webp" alt="பெரிய அ எழுத்துடன் ஒலிப்பும் அடுத்த படத்திற்குச் செல்லும் வசதிகளும் உள்ள தமிழ் எழுத்துக் கற்றல் திரை." width="1200" height="540" loading="lazy" decoding="async">
+<figcaption>
+<strong>படங்களுடன் எழுத்துகள்.</strong>படங்களுடனும் ஒலிப்புகளுடனும் எழுத்துகளை அறிந்துகொள்ளலாம்.</figcaption>
+</figure>
+<figure>
+<img src="assets/apps/suvadi/ta-numbers.webp" alt="பெரிய 3 எண்ணும் மூன்று புள்ளிகளும் மூன்று என்ற தமிழ்ச் சொல்லும் உள்ள எண் அட்டை." width="1200" height="540" loading="lazy" decoding="async">
+<figcaption>
+<strong>ஒன்று, இரண்டு, மூன்று…</strong>எண்ணைப் பார்க்கலாம். அதன் பெயரைக் கேட்கலாம்.</figcaption>
+</figure>
+<figure>
+<img src="assets/apps/suvadi/ta-fruits.webp" alt="ஆப்பிள் படத்துடன் ஒலிப்பும் மொழி மாற்றும் வசதிகளும் உள்ள தமிழ் பழ அட்டை." width="1200" height="540" loading="lazy" decoding="async">
+<figcaption>
+<strong>பழக்கமான படங்கள், புதிய சொற்கள்.</strong>அன்றாடப் பொருட்களின் பெயர்களை அறிந்துகொள்ளலாம்.</figcaption>
+</figure>
+<figure>
+<img src="assets/apps/suvadi/ta-quiz.webp" alt="நான்கு பழங்களின் படங்களும் ஒலியை மீண்டும் கேட்கும் வசதியும் விடையைத் தேர்ந்தெடுக்கும் வசதியும் உள்ள வினாடி வினா." width="1200" height="540" loading="lazy" decoding="async">
+<figcaption>
+<strong>கற்கலாம், பயிற்சி செய்யலாம்.</strong>ஒலியைக் கேட்டு, பொருத்தமான படத்தைத் தேர்ந்தெடுக்கலாம்.</figcaption>
+</figure>
+</div>
+</section>
+<section class="section" aria-labelledby="topics-title">
+<p class="eyebrow">கற்றலின் முதல் படிகள்</p>
+<h2 id="topics-title">18 தலைப்புகள். பல புதிய விஷயங்கள்.</h2>
+<p class="section-intro">எழுத்துகள், எண்களில் தொடங்கலாம். சுற்றியுள்ள பொருட்களையும் புதிய உலகங்களையும் அறிந்துகொள்ளலாம்.</p>
+<ul class="topic-list">
+<li>எழுத்துகள்</li>
+<li>எண்கள்</li>
+<li>வடிவங்கள்</li>
+<li>வண்ணங்கள்</li>
+<li>விலங்குகள்</li>
+<li>பறவைகள்</li>
+<li>பழங்கள்</li>
+<li>காய்கறிகள்</li>
+<li>பூக்கள்</li>
+<li>வாகனங்கள்</li>
+<li>உடல் உறுப்புகள்</li>
+<li>அன்றாடப் பொருட்கள்</li>
+<li>தொழில்கள்</li>
+<li>பள்ளிப் பொருட்கள்</li>
+<li>நாட்கள்</li>
+<li>மாதங்கள்</li>
+<li>பருவங்கள்</li>
+<li>சூரியக் குடும்பம்</li>
+</ul>
+</section>
+<section class="section split" aria-labelledby="parents-title">
+<div>
+<p class="eyebrow">பெற்றோருக்காக</p>
+<h2 id="parents-title">மழலைகளுக்கான கற்றல்.<br>பெற்றோருக்கான அமைப்புகள்.</h2>
+<ol class="steps">
+<li>
+<strong>மொழியைத் தேர்ந்தெடுக்கலாம்.</strong>தமிழிலோ ஆங்கிலத்திலோ கற்கலாம். மற்ற மொழியை அறிந்துகொள்ள விரும்பும்போது மாற்றலாம்.</li>
+<li>
+<strong>ஒரு தலைப்பைத் தேர்ந்தெடுத்து சேர்ந்து கற்கலாம்.</strong>படத்தைப் பார்த்து அதன் பெயரைக் கேட்கலாம். குழந்தைக்குப் பிடித்த சொற்களை மீண்டும் கேட்கலாம்.</li>
+<li>
+<strong>விருப்பத்திற்கு ஏற்ப அமைக்கலாம்.</strong>பெற்றோர் பகுதியைத் திறக்க ஒரு கணக்குக் கேள்விக்குப் பதிலளிக்க வேண்டும். மொழி, திரையின் வண்ணம், ஒலி, பதிவிறக்கிய தலைப்புகளை இங்கு நிர்வகிக்கலாம்.</li>
+</ol>
+</div>
+<aside class="notice" aria-label="பதிவிறக்கமும் இணையமின்றிக் கற்றலும்">
+<h3>பதிவிறக்கிய பின்<br>இணையமின்றியும் கற்கலாம்.</h3>
+<p>கூடுதல் தலைப்புகளின் படங்களையும் ஒலிகளையும் பதிவிறக்க இணைய இணைப்பு தேவை. பதிவிறக்கிய உள்ளடக்கத்தை இணையமின்றிப் பயன்படுத்தலாம்.</p>
+<p>பெற்றோர் பகுதியில் தலைப்புகளை நீக்கி, தேவைப்படும்போது மீண்டும் பதிவிறக்கலாம்.</p>
+</aside>
+</section>
+<section class="section" id="faq" aria-labelledby="faq-title">
+<p class="eyebrow">தெரிந்துகொள்ளலாம்</p>
+<h2 id="faq-title">பெற்றோரின் கேள்விகள்.</h2>
+<div class="faq">
+<details>
+<summary>சுவடி யாருக்கானது?</summary>
+<p>2–6 வயது மழலைகளுக்காக சுவடி வடிவமைக்கப்பட்டுள்ளது. பெற்றோரும் உடன் அமர்ந்து சொற்களை மீண்டும் கேட்டு, அன்றாடக் கற்றலில் பங்கேற்கலாம்.</p>
+</details>
+<details>
+<summary>தமிழையும் ஆங்கிலத்தையும் கற்கலாமா?</summary>
+<p>ஆம். படங்கள், சொற்களின் ஒலிப்புகள், எழுத்துகள் ஆகியவற்றைத் தமிழிலும் ஆங்கிலத்திலும் அறிந்துகொள்ளலாம். செயலியில் மொழியை மாற்றலாம்.</p>
+</details>
+<details>
+<summary>கற்க இணைய இணைப்பு தேவையா?</summary>
+<p>கூடுதல் தலைப்புகளின் படங்களையும் ஒலிகளையும் பதிவிறக்க இணைய இணைப்பு தேவை. பதிவிறக்கிய பின் அந்த உள்ளடக்கத்தை இணையமின்றிப் பயன்படுத்தலாம்.</p>
+</details>
+<details>
+<summary>பெற்றோருக்கான அமைப்புகள் எங்கே உள்ளன?</summary>
+<p>பெற்றோர் பகுதியைத் திறந்து கணக்குக் கேள்விக்குப் பதிலளிக்கலாம். மொழி, திரையின் வண்ணம், ஒலி, பதிவிறக்கிய தலைப்புகளை அங்கு நிர்வகிக்கலாம்.</p>
+</details>
+</div>
+<div class="app-nav-links" style="margin-top:28px">
+<a href="stanza.html">StanZa ↗</a>
+</div>
+</section>
+<section class="closing" aria-labelledby="closing-title">
+<div>
+<h2 id="closing-title">ஒரு புதிய கண்டுபிடிப்பிற்கு இடம் கொடுங்கள்.</h2>
+<p>முதல் எழுத்து. பழக்கமான விலங்கு. சேர்ந்து சொல்ல ஒரு சொல்.</p>
+</div>
+<a class="play-button" href="https://play.google.com/store/apps/details?id=com.bulbulkids.flashcards">
+<svg viewBox="0 0 24 28" aria-hidden="true">
+<path d="M2 1v26l21-13z"/>
+</svg>
+<span>
+<small>பதிவிறக்க</small>Google Play</span>
+</a>
+</section>

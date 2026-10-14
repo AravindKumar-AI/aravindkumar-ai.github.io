@@ -15,6 +15,7 @@ import html
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urljoin
 
 try:
     import markdown
@@ -113,13 +114,49 @@ def meta_tags(meta: dict[str, str]) -> str:
         tags.append(f'  <meta name="description" content="{html.escape(description, quote=True)}">')
     if author := meta.get("author"):
         tags.append(f'  <meta name="author" content="{html.escape(author, quote=True)}">')
+    if canonical := meta.get("canonical"):
+        domain = (ROOT / "CNAME").read_text(encoding="utf-8").strip()
+        canonical = urljoin(f"https://{domain}/", canonical)
+        tags.append(f'  <link rel="canonical" href="{html.escape(canonical, quote=True)}">')
+        for property_name, value in (
+            ("og:type", "website"),
+            ("og:title", meta["title"]),
+            ("og:description", meta.get("description", "")),
+            ("og:url", canonical),
+            ("og:locale", "ta_IN" if meta.get("lang") == "ta" else "en_IN"),
+        ):
+            tags.append(f'  <meta property="{property_name}" content="{html.escape(value, quote=True)}">')
+        if image := meta.get("image"):
+            image = urljoin(f"https://{domain}/", image)
+            tags.append(f'  <meta property="og:image" content="{html.escape(image, quote=True)}">')
+            tags.append('  <meta name="twitter:card" content="summary_large_image">')
+        for language in ("en", "ta"):
+            if alternate := meta.get(f"alternate_{language}"):
+                alternate = urljoin(f"https://{domain}/", alternate)
+                tags.append(f'  <link rel="alternate" hreflang="{language}" href="{html.escape(alternate, quote=True)}">')
+                if language == "en":
+                    tags.append(f'  <link rel="alternate" hreflang="x-default" href="{html.escape(alternate, quote=True)}">')
+    if icon := meta.get("icon"):
+        tags.append(f'  <link rel="icon" type="image/png" href="{html.escape(icon, quote=True)}">')
     return ("\n".join(tags) + "\n") if tags else ""
 
 
 def page_shell(source: str, meta: dict[str, str], wrap_inner: str, scripts: str = "") -> str:
     script_block = f"\n{scripts}\n" if scripts else "\n"
+    landing = meta.get("layout") == "app"
+    language = html.escape(meta.get("lang", "en"), quote=True)
+    app_styles = '  <link rel="stylesheet" href="assets/css/apps.css">\n' if landing else ""
+    body_attrs = f' class="app-page {html.escape(meta.get("app", ""), quote=True)}"' if landing else ""
+    skip_link = '  <a class="skip-link" href="#main">Skip to content</a>\n' if landing else ""
+    if landing and meta.get("lang") == "ta":
+        skip_link = '  <a class="skip-link" href="#main">உள்ளடக்கத்திற்குச் செல்லவும்</a>\n'
+    wrap_tag = 'main id="main" tabindex="-1"' if landing else "div"
+    wrap_end = "main" if landing else "div"
+    byline = '<footer class="app-footer">Built by <a href="./">Aravind Kumar R</a> · <a href="mailto:aravindkumar.ai@outlook.com">Get in touch</a></footer>' if landing else '<span class="byline">aravind kumar r</span>'
+    if landing and meta.get("lang") == "ta":
+        byline = '<footer class="app-footer">உருவாக்கம்: <a href="./">அரவிந்த் குமார் R</a> · <a href="mailto:aravindkumar.ai@outlook.com">தொடர்புகொள்ள</a></footer>'
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{language}">
 <!-- Generated from {source}. Edit that file, then run: python3 scripts/render.py -->
 
 <head>
@@ -130,20 +167,20 @@ def page_shell(source: str, meta: dict[str, str], wrap_inner: str, scripts: str 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-</head>
+{app_styles}</head>
 
-<body>
-  <nav class="topnav" aria-label="Primary">
+<body{body_attrs}>
+{skip_link}  <nav class="topnav" aria-label="Primary">
     <div class="topnav-inner">
 {nav(meta.get("nav", ""))}
     </div>
   </nav>
 
-  <div class="wrap">
+  <{wrap_tag} class="wrap">
 {wrap_inner}
-  </div>
+  </{wrap_end}>
 
-  <span class="byline">aravind kumar r</span>{script_block}</body>
+  {byline}{script_block}</body>
 
 </html>
 """
@@ -195,6 +232,11 @@ def render_page(path: Path) -> str:
         return page_shell(source, meta, inner)
 
     if layout == "prose":
+        return page_shell(source, meta, indent(rendered, 4))
+
+    if layout == "app":
+        if meta.get("app") not in {"stanza", "suvadi"}:
+            raise SystemExit(f"{path.name} needs app: stanza or app: suvadi")
         return page_shell(source, meta, indent(rendered, 4))
 
     raise SystemExit(f"{path.name} has unknown layout: {layout}")

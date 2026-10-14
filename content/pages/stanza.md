@@ -1,0 +1,193 @@
+---
+title: StanZa — Learn Indian Languages
+description: A little practice. A new language. Learn eleven languages with bite-sized cards, personalized quizzes and AI speaking practice using your own Sarvam AI key.
+layout: app
+app: stanza
+lang: en
+canonical: stanza.html
+image: assets/apps/stanza/social.png
+icon: assets/apps/stanza/icon.png
+---
+
+<div class="app-nav">
+  <a class="brand" href="stanza.html">
+<img src="assets/apps/stanza/icon.png" alt="" width="256" height="256" fetchpriority="high" decoding="async">StanZa</a>
+  <div class="app-nav-links">
+<a class="section-link" href="#practice">How it works</a>
+<a href="#faq">Questions</a>
+<a href="suvadi.html">Meet Suvadi ↗</a>
+</div>
+</div>
+<section class="hero" aria-labelledby="hero-title">
+  <div>
+    <p class="eyebrow">A daily space for language learning</p>
+    <h1 id="hero-title">A little practice.<br>
+<span>A new language.</span>
+</h1>
+    <p class="lead">Useful words. Everyday conversations. Small moments of progress. Learn Indian languages and English with cards, quizzes and an AI speaking companion.</p>
+    <div class="actions">
+<a class="play-button" href="https://play.google.com/store/apps/details?id=app.stanza">
+<svg viewBox="0 0 24 28" aria-hidden="true">
+<path d="M2 1v26l21-13z"/>
+</svg>
+<span>
+<small>Download on</small>Google Play</span>
+</a>
+<a class="text-link" href="#practice">Explore the app ↓</a>
+</div>
+    <p class="fine-print">Android · Bring your own Sarvam AI key for AI features.</p>
+    <div class="badge-row">
+<span class="badge">11 languages</span>
+<span class="badge">Cards · Quizzes · Speaking</span>
+<span class="badge">At your own pace</span>
+</div>
+  </div>
+  <div class="hero-art">
+    <img src="assets/apps/stanza/01-home.webp" alt="StanZa home screen with a Hindi learning goal, daily practice time and shortcuts to cards and quizzes." width="640" height="1138" fetchpriority="high" decoding="async" class="phone-shot">
+    <span class="floating-label float-top" lang="hi">नमस्ते<small lang="en">Hello, in Hindi</small>
+</span>
+    <span class="floating-label float-bottom" lang="ta">வணக்கம்<small lang="en">Hello, in Tamil</small>
+</span>
+  </div>
+</section>
+<div class="strip">
+<div>
+<strong>Learn a little</strong>Bite-sized cards</div>
+<div>
+<strong>Try it out</strong>Quizzes that fit your interests</div>
+<div>
+<strong>Say it aloud</strong>Everyday speaking practice</div>
+</div>
+<section class="section" id="practice" aria-labelledby="practice-title">
+  <p class="eyebrow">Three ways to keep learning</p>
+  <h2 id="practice-title">Read it. Remember it. Speak it.</h2>
+  <p class="section-intro">Pick the language you want to learn and the topics you enjoy. StanZa gives you a few different ways to make the words your own.</p>
+  <div class="feature-grid">
+    <div class="feature">
+<span class="feature-number" aria-hidden="true">01</span>
+<h3>One useful card at a time.</h3>
+<p>Swipe through vocabulary, idioms, phrases, grammar and cultural tips. Hear pronunciation, read examples and rate each card to guide spaced repetition.</p>
+</div>
+    <div class="feature">
+<span class="feature-number" aria-hidden="true">02</span>
+<h3>Practice built around you.</h3>
+<p>Try multiple-choice, fill-in-the-blank and true-or-false quizzes. AI-generated questions draw on your interests, recent cards and concepts you missed.</p>
+</div>
+    <div class="feature">
+<span class="feature-number" aria-hidden="true">03</span>
+<h3>A conversation worth having.</h3>
+<p>Practice everyday roleplays with an AI tutor, or try a spoken essay. Get grammar corrections, vocabulary tips and spoken replies.</p>
+</div>
+  </div>
+</section>
+<section class="section" aria-labelledby="screens-title">
+  <p class="eyebrow">Inside StanZa</p>
+<h2 id="screens-title">A small session. Plenty to explore.</h2>
+  <p class="section-intro">Save the words you want to remember. Set a daily practice goal. Come back to cards, conversations and questions whenever you need them.</p>
+  <div class="screenshot-grid">
+    <figure>
+<img src="assets/apps/stanza/02-cards.webp" alt="Hindi vocabulary card for namaste with English hints, pronunciation playback and four review ratings." width="640" height="1138" loading="lazy" decoding="async">
+<figcaption>
+<strong>Learn</strong>Words, examples and a little repetition.</figcaption>
+</figure>
+    <figure>
+<img src="assets/apps/stanza/04-quiz-session.webp" alt="Hindi multiple-choice quiz asking which word means thank you, with an answer selected." width="640" height="1138" loading="lazy" decoding="async">
+<figcaption>
+<strong>Check</strong>A question, an answer, a new connection.</figcaption>
+</figure>
+    <figure>
+<img src="assets/apps/stanza/05-speak.webp" alt="Speaking practice hub with spoken essay, custom talk and everyday roleplay scenarios." width="640" height="1138" loading="lazy" decoding="async">
+<figcaption>
+<strong>Speak</strong>Make room for real-life situations.</figcaption>
+</figure>
+    <figure>
+<img src="assets/apps/stanza/06-saved.webp" alt="Saved Hindi learning cards for hello, thank you and one tea please." width="640" height="1138" loading="lazy" decoding="async">
+<figcaption>
+<strong>Keep</strong>Your useful words, ready to revisit.</figcaption>
+</figure>
+  </div>
+  <p class="fine-print">Screens from the current app, shown with sample learning data.</p>
+</section>
+<section class="section" aria-labelledby="languages-title">
+  <p class="eyebrow">Your language. Your next language.</p>
+<h2 id="languages-title">Eleven ways to begin.</h2>
+  <p class="section-intro">Your native language shapes hints and interface copy. Your target language shapes what you learn.</p>
+  <ul class="language-list">
+    <li>Hindi <span lang="hi">हिन्दी</span>
+</li>
+<li>Tamil <span lang="ta">தமிழ்</span>
+</li>
+<li>Telugu <span lang="te">తెలుగు</span>
+</li>
+<li>Kannada <span lang="kn">ಕನ್ನಡ</span>
+</li>
+<li>Malayalam <span lang="ml">മലയാളം</span>
+</li>
+<li>Bengali <span lang="bn">বাংলা</span>
+</li>
+<li>Marathi <span lang="mr">मराठी</span>
+</li>
+<li>Gujarati <span lang="gu">ગુજરાતી</span>
+</li>
+<li>Odia <span lang="or">ଓଡ଼ିଆ</span>
+</li>
+<li>Punjabi <span lang="pa">ਪੰਜਾਬੀ</span>
+</li>
+<li>English</li>
+  </ul>
+</section>
+<section class="section split" aria-labelledby="start-title">
+  <div>
+<p class="eyebrow">Make it your practice</p>
+<h2 id="start-title">A few steps.<br>A fresh start.</h2>
+    <ol class="steps">
+<li>
+<strong>Choose your languages.</strong>Tell StanZa your native language and the one you want to learn.</li>
+<li>
+<strong>Pick your interests and daily goal.</strong>Make practice fit the things you enjoy and the time you have.</li>
+<li>
+<strong>Add your Sarvam AI key.</strong>Use your key for new AI cards, quizzes and speech. You can skip this during setup and add it later in Profile.</li>
+</ol>
+  </div>
+  <aside class="notice" aria-label="AI requirements">
+<h3>Your key. Your AI practice.</h3>
+<p>AI content generation, speech recognition and pronunciation require your own <a href="https://dashboard.sarvam.ai">Sarvam AI API key</a> and an internet connection. Usage may incur charges under your Sarvam plan.</p>
+<p>Your profile and learning archives are saved locally. Text and voice data needed for AI features are sent to Sarvam AI for processing.</p>
+<p>AI-generated content and coaching can make mistakes. Treat them as practice guidance alongside other learning resources.</p>
+</aside>
+</section>
+<section class="section" id="faq" aria-labelledby="faq-title">
+<p class="eyebrow">Before you begin</p>
+<h2 id="faq-title">A few questions.</h2>
+<div class="faq">
+  <details>
+<summary>Do I need a StanZa account?</summary>
+<p>No StanZa account is required. Your profile and learning archives are stored on your device.</p>
+</details>
+  <details>
+<summary>Can I use StanZa without a Sarvam AI key?</summary>
+<p>You can skip the key during setup and add it later in Profile. Previously cached cards remain available; new AI content and audio require a key and internet access.</p>
+</details>
+  <details>
+<summary>What can I save?</summary>
+<p>Bookmark learning cards, conversations and quiz questions so you can return to useful content later.</p>
+</details>
+  <details>
+<summary>How do I follow my progress?</summary>
+<p>Set a daily goal, track practice time and streaks, and follow your in-app language mastery score. The score is a practice indicator, not a proficiency certification.</p>
+</details>
+</div>
+</section>
+<section class="closing" aria-labelledby="closing-title">
+<div>
+<h2 id="closing-title">Your next language starts<br>with a little practice.</h2>
+<p>Make a little room for it today.</p>
+</div>
+<a class="play-button" href="https://play.google.com/store/apps/details?id=app.stanza">
+<svg viewBox="0 0 24 28" aria-hidden="true">
+<path d="M2 1v26l21-13z"/>
+</svg>
+<span>
+<small>Download on</small>Google Play</span>
+</a>
+</section>

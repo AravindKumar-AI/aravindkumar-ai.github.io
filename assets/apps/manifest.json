@@ -1,0 +1,149 @@
+[
+  {
+    "file": "assets/apps/stanza/icon.png",
+    "source": "marketing/stanza-play-store/upload/app-icon-512.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 14264
+  },
+  {
+    "file": "assets/apps/stanza/social.png",
+    "source": "marketing/stanza-play-store/upload/feature-graphic-1024x500.png",
+    "width": 1024,
+    "height": 500,
+    "bytes": 31776
+  },
+  {
+    "file": "assets/apps/stanza/01-home.webp",
+    "source": "marketing/stanza-play-store/raw-screens/01-home.png",
+    "width": 640,
+    "height": 1138,
+    "bytes": 38648
+  },
+  {
+    "file": "assets/apps/stanza/02-cards.webp",
+    "source": "marketing/stanza-play-store/raw-screens/02-cards.png",
+    "width": 640,
+    "height": 1138,
+    "bytes": 36360
+  },
+  {
+    "file": "assets/apps/stanza/04-quiz-session.webp",
+    "source": "marketing/stanza-play-store/raw-screens/04-quiz-session.png",
+    "width": 640,
+    "height": 1138,
+    "bytes": 15458
+  },
+  {
+    "file": "assets/apps/stanza/05-speak.webp",
+    "source": "marketing/stanza-play-store/raw-screens/05-speak.png",
+    "width": 640,
+    "height": 1138,
+    "bytes": 48136
+  },
+  {
+    "file": "assets/apps/stanza/06-saved.webp",
+    "source": "marketing/stanza-play-store/raw-screens/06-saved.png",
+    "width": 640,
+    "height": 1138,
+    "bytes": 27202
+  },
+  {
+    "file": "assets/apps/suvadi/icon.png",
+    "source": "output/play-store/app-icon-512.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 78998
+  },
+  {
+    "file": "assets/apps/suvadi/wordmark.webp",
+    "source": "assets/mazhalai-suvadi-logo-2.png",
+    "width": 600,
+    "height": 287,
+    "bytes": 19336
+  },
+  {
+    "file": "assets/apps/suvadi/social-en.png",
+    "source": "output/play-store/en-IN/feature-graphic.png",
+    "width": 1024,
+    "height": 500,
+    "bytes": 179390
+  },
+  {
+    "file": "assets/apps/suvadi/en-home.webp",
+    "source": "output/play-store/screenshots-raw/en-home.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 24606
+  },
+  {
+    "file": "assets/apps/suvadi/en-alphabets.webp",
+    "source": "output/play-store/screenshots-raw/en-alphabets.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 21486
+  },
+  {
+    "file": "assets/apps/suvadi/en-numbers.webp",
+    "source": "output/play-store/screenshots-raw/en-numbers.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 20776
+  },
+  {
+    "file": "assets/apps/suvadi/en-fruits.webp",
+    "source": "output/play-store/screenshots-raw/en-fruits.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 30302
+  },
+  {
+    "file": "assets/apps/suvadi/en-quiz.webp",
+    "source": "output/play-store/screenshots-raw/en-quiz.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 29178
+  },
+  {
+    "file": "assets/apps/suvadi/social-ta.png",
+    "source": "output/play-store/ta-IN/feature-graphic.png",
+    "width": 1024,
+    "height": 500,
+    "bytes": 181101
+  },
+  {
+    "file": "assets/apps/suvadi/ta-home.webp",
+    "source": "output/play-store/screenshots-raw/ta-home.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 27006
+  },
+  {
+    "file": "assets/apps/suvadi/ta-alphabets.webp",
+    "source": "output/play-store/screenshots-raw/ta-alphabets.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 21342
+  },
+  {
+    "file": "assets/apps/suvadi/ta-numbers.webp",
+    "source": "output/play-store/screenshots-raw/ta-numbers.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 21734
+  },
+  {
+    "file": "assets/apps/suvadi/ta-fruits.webp",
+    "source": "output/play-store/screenshots-raw/ta-fruits.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 31430
+  },
+  {
+    "file": "assets/apps/suvadi/ta-quiz.webp",
+    "source": "output/play-store/screenshots-raw/ta-quiz.png",
+    "width": 1200,
+    "height": 540,
+    "bytes": 31980
+  }
+]
