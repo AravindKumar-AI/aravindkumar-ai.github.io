@@ -2,7 +2,7 @@
 @font-face{font-family:AppOutfit;src:url('../apps/fonts/Outfit-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
 @font-face{font-family:AppNunito;src:url('../apps/fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 900;font-display:swap}
 .app-page{--ink:#172232;--muted:#4f5e70;--accent:#0062cc;--accent-dark:#004fa8;--tint:#e4f0ff;--canvas:#f7f9fc;--line:#dce3ed;background:var(--canvas);color:var(--ink);font-family:AppOutfit,system-ui,sans-serif;font-size:17px;line-height:1.65;padding-bottom:0}
-.app-page.suvadi{--ink:#20344a;--muted:#526174;--accent:#b91e58;--accent-dark:#941444;--tint:#ffe9ef;--canvas:#fff9f0;--line:#e4dfd5;font-family:AppNunito,system-ui,sans-serif}
+.app-page.suvadi{--ink:#163331;--muted:#4f6663;--accent:#0d766e;--accent-dark:#0a5852;--tint:#e3f2ef;--canvas:#fffaf2;--line:#e5ded3;font-family:AppNunito,system-ui,sans-serif}
 .app-page[lang=ta],html[lang=ta] .app-page{font-family:AppNunito,'Tamil Sangam MN','Nirmala UI','Noto Sans Tamil',system-ui,sans-serif}
 .app-page .wrap{max-width:1120px;width:calc(100% - 64px)}
 .app-page .topnav{margin:0;background:var(--canvas);border-bottom:1px solid var(--line);padding:16px 32px;position:relative}
@@ -82,16 +82,18 @@
 .app-page .app-footer{max-width:1120px;width:calc(100% - 64px);margin:0 auto;padding:0 0 36px;color:var(--muted);font-size:13px}
 .app-page .app-footer a{color:var(--muted)}
 .app-page.suvadi .hero{grid-template-columns:1fr 1fr;gap:44px}
-.app-page.suvadi .hero-art{min-height:410px;border-radius:40px;background:#e1f3f9;padding:30px 20px 42px;display:flex;flex-direction:column;gap:24px}
+.app-page.suvadi .hero-art{min-height:410px;border-radius:40px;background:var(--tint);padding:30px 20px 42px;display:flex;flex-direction:column;gap:24px}
 .app-page .wordmark{width:230px;height:auto;display:block;border-radius:20px}
 .app-page .landscape-shot{width:100%;height:auto;display:block;border:5px solid white;border-radius:15px;box-shadow:0 16px 30px #17334c18}
-.app-page.suvadi .float-top{top:20px;left:-15px;color:#16635a}
+.app-page.suvadi .landscape-shot{box-shadow:0 16px 30px #16333118}
+.app-page.suvadi .float-top{top:20px;left:-15px;color:var(--accent)}
 .app-page.suvadi .float-bottom{bottom:-14px;right:16px;color:var(--accent)}
 .app-page.suvadi .screenshot-grid{grid-template-columns:repeat(2,1fr);gap:32px}
-.app-page.suvadi .screenshot-grid img{border:5px solid white;box-shadow:0 8px 24px #17334c0a}
+.app-page.suvadi .screenshot-grid img{border:5px solid white;box-shadow:0 8px 24px #1633310d}
 .app-page.suvadi .topic-list li:nth-child(3n+1){background:#e9f3e5}
 .app-page.suvadi .topic-list li:nth-child(3n+2){background:#fff0d2}
-.app-page.suvadi .topic-list li:nth-child(3n){background:#e8f3fa}
+.app-page.suvadi .topic-list li:nth-child(3n){background:#def2ed}
+.app-page.suvadi .closing p{color:#d1eee9}
 html[lang=ta] .app-page h1{font-size:clamp(32px,4.2vw,52px);line-height:1.4;letter-spacing:-.5px}
 html[lang=ta] .app-page h2{font-size:clamp(26px,2.8vw,36px);line-height:1.5;letter-spacing:0}
 html[lang=ta] .app-page h3,html[lang=ta] .app-page summary{line-height:1.7;letter-spacing:0}
