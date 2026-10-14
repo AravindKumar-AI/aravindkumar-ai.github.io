@@ -18,11 +18,12 @@ A short, type-only portfolio for **Aravind Kumar** (Senior AI & Machine Learning
 
 ## Editing a page
 
-Home, posts, projects, resume, and the notes redirect are Markdown files in `content/pages/`:
+Home, apps, posts, projects, resume, and the notes redirect are Markdown files in `content/pages/`:
 
 | File | Page |
 | --- | --- |
 | `content/pages/index.md` | `index.html` |
+| `content/pages/apps.md` | `apps.html` (StanZa and Suvadi directory) |
 | `content/pages/posts.md` | `posts.html` |
 | `content/pages/projects.md` | `projects.html` |
 | `content/pages/resume.md` | `resume.html` |

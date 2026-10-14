@@ -27,6 +27,7 @@ PAGES = ROOT / "content" / "pages"
 
 NAV = [
     ("home", "./", False),
+    ("apps", "apps.html", False),
     ("projects", "projects.html", False),
     ("posts", "posts.html", False),
     ("resume", "resume.html", False),

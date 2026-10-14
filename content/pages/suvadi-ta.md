@@ -3,6 +3,7 @@ title: மழலை சுவடி — தமிழிலும் ஆங்க
 description: 2–6 வயது மழலைகள் படங்கள், சொற்களின் ஒலிப்புகள், எழுத்துகள், எண்கள், வினாடி வினா மூலம் தமிழையும் ஆங்கிலத்தையும் அறிந்துகொள்ள மழலை சுவடி உதவுகிறது.
 layout: app
 app: suvadi
+nav: apps
 lang: ta
 canonical: suvadi-ta.html
 image: assets/apps/suvadi/social-ta.png

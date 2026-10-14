@@ -3,6 +3,7 @@ title: Suvadi — Tamil & English Learning for Little Ones
 description: Mazhalai Suvadi helps preschool children aged 2–6 explore Tamil and English with picture cards, spoken words, alphabets, numbers and playful quizzes.
 layout: app
 app: suvadi
+nav: apps
 lang: en
 canonical: suvadi.html
 image: assets/apps/suvadi/social-en.png

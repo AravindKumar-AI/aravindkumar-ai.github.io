@@ -3,6 +3,7 @@ title: StanZa — Learn Indian Languages
 description: A little practice. A new language. Learn eleven languages with bite-sized cards, personalized quizzes and AI speaking practice using your own Sarvam AI key.
 layout: app
 app: stanza
+nav: apps
 lang: en
 canonical: stanza.html
 image: assets/apps/stanza/social.png
