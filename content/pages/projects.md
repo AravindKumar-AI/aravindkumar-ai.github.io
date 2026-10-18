@@ -35,6 +35,14 @@ Suvadi helps little learners aged 2–6 explore Tamil and English through pictur
 
 ## Hackathon projects
 
+### [VibeShorts.AI](https://vibeshorts.ai)
+
+*2026 · Google Cloud AI Builder Cup · Team Namma Pasanga*
+
+An AI creative studio for short-form video that turns a plain-language brief into a cinematic 9:16 short with full creator control.
+
+Built for the Google Cloud AI Builder Cup (Media, Content & Digital Experiences track). A Gemini-powered Creative Director plans the scene-by-scene storyboard and coordinates media generation across Gemini, Veo, and Lyria. Built with a Next.js studio and FastAPI backend with OAuth-authenticated MCP access, dual approval gates, upfront spend reservations, and rendering via HyperFrames and FFmpeg. [Explore VibeShorts](https://vibeshorts.ai).
+
 ### Autonomous Red Teaming Agent
 
 *2026 · KnowBe4 AI Hackathon, Bengaluru · 1st place*

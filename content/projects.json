@@ -1,5 +1,21 @@
 [
   {
+    "slug": "vibeshorts",
+    "kind": "hackathon",
+    "scene": "video",
+    "title": "VibeShorts.AI",
+    "event": "Google Cloud AI Builder Cup",
+    "year": "2026",
+    "place": "Team Namma Pasanga",
+    "rank": "gold",
+    "summary": "An AI creative studio for short-form video that turns a plain-language brief into a cinematic 9:16 short with full creator control.",
+    "detail": "Built for the Google Cloud AI Builder Cup (Media, Content & Digital Experiences track). A Gemini-powered Creative Director plans the storyboard and coordinates media generation across Gemini, Veo, and Lyria, with strict human-in-the-loop approval gates, upfront spend reservations, and rendering via HyperFrames and FFmpeg.",
+    "tags": ["Gemini", "Veo", "Lyria", "HyperFrames", "FastAPI", "MCP"],
+    "links": [
+      { "label": "VibeShorts.AI", "href": "https://vibeshorts.ai" }
+    ]
+  },
+  {
     "slug": "red-team-agent",
     "kind": "hackathon",
     "scene": "redteam",
