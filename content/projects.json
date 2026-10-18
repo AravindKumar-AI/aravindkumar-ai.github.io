@@ -59,17 +59,18 @@
   },
   {
     "slug": "whized",
-    "kind": "build",
+    "kind": "finetuning",
     "scene": "tutor",
     "title": "WhiZED · Socratic Tutor",
-    "event": "On-device / Gemma 3n",
+    "event": "Google Gemma 3n Hackathon · Kaggle",
     "year": "2025",
-    "place": "Open Build",
+    "place": "Kaggle Writeup",
     "rank": "lab",
-    "summary": "A Socratic tutor for school students that asks before it answers — built around Gemma 3n so the dialogue can live closer to the device.",
-    "detail": "WhiZED is a Socratic tutor for school students powered by Gemma 3n. Instead of dumping answers, it walks the student through questions, hints, and worked examples. Companion experiments include WhiZardLM (a NotebookLM-style workspace for school notes).",
-    "tags": ["Gemma", "Tutoring", "SLMs", "EdTech"],
+    "summary": "A Socratic tutor for school students that teaches in regional languages (Tamil & English) and asks before it answers — fine-tuned on Gemma 3n.",
+    "detail": "WhiZED is a Socratic tutor for school students powered by fine-tuned Gemma 3n. Instead of dumping answers, it walks the student through questions, hints, and worked examples. Built for the Google Gemma 3n Hackathon on Kaggle.",
+    "tags": ["Gemma", "Tutoring", "SLMs", "Fine-tuning", "EdTech"],
     "links": [
+      { "label": "Kaggle Writeup", "href": "https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/whized-socratic-tutor-for-school-students" },
       { "label": "WhiZED", "href": "https://github.com/AravindKumar-AI/WhiZED" },
       { "label": "WhiZardLM", "href": "https://github.com/AravindKumar-AI/WhiZardLM" }
     ]

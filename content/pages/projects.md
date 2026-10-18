@@ -1,15 +1,41 @@
 ---
 title: Projects — Aravind Kumar R
-description: Projects by Aravind Kumar R: hackathons and lab builds.
+description: Projects by Aravind Kumar R: LLM fine-tuning, mobile apps, and hackathons.
 layout: note
 nav: projects
 ---
 
 # projects
 
-hackathons and lab builds, one at a time.
+hackathons, fine-tuning, and apps, one at a time.
 
-## Autonomous Red Teaming Agent
+## LLM finetuning
+
+### [WhiZED · Socratic Tutor](https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/whized-socratic-tutor-for-school-students)
+
+*2025 · Google Gemma 3n Hackathon · fine-tuning on Gemma 3n*
+
+A Socratic tutor for school students that teaches in regional languages (Tamil and English) and asks before it answers, fine-tuned on Gemma 3n so dialogue can live closer to the device.
+
+Instead of dumping answers, it walks the student through guided questions, hints, and worked examples. Read the [Kaggle writeup](https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/whized-socratic-tutor-for-school-students), or explore the code on GitHub: [WhiZED](https://github.com/AravindKumar-AI/WhiZED) and [WhiZardLM](https://github.com/AravindKumar-AI/WhiZardLM).
+
+## Mobile apps
+
+### [StanZa](stanza.html)
+
+*Language learning · Android*
+
+Indian languages and English, a little practice at a time. Bite-sized learning cards, personalized quizzes, and spoken roleplays using the learner's own Sarvam AI key. [Explore StanZa](stanza.html).
+
+### [Mazhalai Suvadi](suvadi.html)
+
+*Preschool learning · Tamil & English · Android*
+
+Suvadi helps little learners aged 2–6 explore Tamil and English through picture cards, spoken words, alphabets, numbers, and quizzes. Eighteen topics, with offline learning after downloads. [Explore Suvadi](suvadi.html) · [தமிழில்](suvadi-ta.html).
+
+## Hackathon projects
+
+### Autonomous Red Teaming Agent
 
 *2026 · KnowBe4 AI Hackathon, Bengaluru · 1st place*
 
@@ -17,7 +43,7 @@ An agent that pentests other agents — hunting prompt injection, jailbreaks, an
 
 Built for the KnowBe4 AI Hackathon as part of the winning team. The system acts as an autonomous red team: it plans attack campaigns, probes target agents with adaptive jailbreak strategies, scores guardrail failures, and reports reproducible traces. The same ideas later informed production agent-security work.
 
-## Matrix
+### Matrix
 
 *2024 · Engineering Innovation Summit · runners up*
 
@@ -25,7 +51,7 @@ Data enhancement for training recommendations and phishing simulations, built fo
 
 Matrix solves the cold-start problem in security awareness. It enriches sparse user data so brand-new people still get personalized training and realistic phishing simulations.
 
-## AURATER — Trash-Eliminating Rover
+### AURATER — Trash-Eliminating Rover
 
 *2017 · IEEE Sponsored ICRAET · best paper*
 
@@ -33,7 +59,7 @@ An autonomous unmanned rover that detects and collects trash. This is the projec
 
 Primary author of “AURATER: Autonomous Unmanned Rover with Advanced Trash Eliminating Robot,” presented at the International Conference on Recent Advances in Engineering and Technology. Computer vision plus mechatronics: detect debris, plan a path, pick it up.
 
-## [IllustratED](https://github.com/AravindKumar-AI/IllustratED)
+### [IllustratED](https://github.com/AravindKumar-AI/IllustratED)
 
 *2026 · AI for learning*
 
@@ -41,15 +67,7 @@ History, science, and math for kids, explained with AI-generated illustrations s
 
 Lessons are paired with on-the-fly illustrations so abstract ideas become visual stories. Built to make learning feel like opening a picture book that writes itself.
 
-## WhiZED · Socratic Tutor
-
-*2025 · on-device, Gemma 3n*
-
-A Socratic tutor for school students that asks before it answers, built around Gemma 3n so the dialogue can live closer to the device.
-
-Instead of dumping answers, it walks the student through questions, hints, and worked examples. A companion experiment, [WhiZardLM](https://github.com/AravindKumar-AI/WhiZardLM), is a workspace for school notes. The tutor itself is [WhiZED](https://github.com/AravindKumar-AI/WhiZED).
-
-## Juno & Asimov
+### Juno & Asimov
 
 *2023–2025 · spoken English for kids*
 
