@@ -30,10 +30,7 @@ NAV = [
     ("projects", "projects.html", False),
     ("posts", "posts.html", False),
     ("resume", "resume.html", False),
-    ("email", "mailto:aravindkumar.ai@outlook.com", False),
-    ("github", "https://github.com/AravindKumar-AI", True),
-    ("linkedin", "https://www.linkedin.com/in/aravindkumar-ai", True),
-    ("medium", "https://medium.com/@aravindkumar-rajendran", True),
+    ("contact", "contact.html", False),
 ]
 
 META_RE = re.compile(r"<p><em>([^<]*)</em></p>")

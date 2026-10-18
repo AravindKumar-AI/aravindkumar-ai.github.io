@@ -110,7 +110,11 @@ a:hover {
 .note h2 {
   font-size: 17px;
   font-weight: 500;
-  margin: 28px 0 10px;
+  margin: 56px 0 14px;
+}
+
+.note h2:first-of-type {
+  margin-top: 28px;
 }
 
 .note h3 {
