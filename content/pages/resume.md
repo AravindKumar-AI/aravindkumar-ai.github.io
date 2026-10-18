@@ -1,5 +1,5 @@
 ---
-title: Resume — Aravind Kumar R
+title: Resume - Aravind Kumar R
 description: Resume of Aravind Kumar R, senior AI and machine learning engineer. Agents, language models, and computer vision.
 author: Aravind Kumar R
 layout: note
@@ -95,7 +95,7 @@ vLLM, TensorRT, Triton, Docker, FastAPI, AWS, Neo4j, Python, C++, SQL.
 
 ## certifications
 
-- [Claude Certified Architect — Foundations](https://www.credly.com/badges/cfe9c88c-095d-41c7-b594-3db6c07cf153) · Aug 2026
+- [Claude Certified Architect - Foundations](https://www.credly.com/badges/cfe9c88c-095d-41c7-b594-3db6c07cf153) · Aug 2026
 - [AWS Certified AI Practitioner](https://www.credly.com/badges/278b3023-9164-4886-a26c-9c48c84658c5) · July 2026
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/809ee6f7-711c-49a7-b60c-0cfc955c9e86) · June 2025
 - [Extensive and Re-imagined AI Program v3](https://theschoolof.ai/) · The School of AI, 2024 – 2025

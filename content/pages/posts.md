@@ -1,5 +1,5 @@
 ---
-title: Posts — Aravind Kumar R
+title: Posts - Aravind Kumar R
 description: Posts by Aravind Kumar R on agents, small language models, and computer vision.
 layout: posts
 nav: posts

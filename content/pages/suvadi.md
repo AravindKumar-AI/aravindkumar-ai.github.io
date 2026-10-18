@@ -1,5 +1,5 @@
 ---
-title: Suvadi — Tamil & English Learning for Little Ones
+title: Suvadi - Tamil & English Learning for Little Ones
 description: Mazhalai Suvadi helps preschool children aged 2–6 explore Tamil and English with picture cards, spoken words, alphabets, numbers and playful quizzes.
 layout: app
 app: suvadi
@@ -29,7 +29,7 @@ alternate_ta: suvadi-ta.html
 <h1 id="hero-title">Little words.<br>
 <span>Big discoveries.</span>
 </h1>
-<p class="lead">A joyful start to Tamil and English. Mazhalai Suvadi—Suvadi for short—helps little ones see a picture, hear a word and discover something new.</p>
+<p class="lead">A joyful start to Tamil and English. Mazhalai Suvadi (Suvadi for short) helps little ones see a picture, hear a word and discover something new.</p>
 <div class="actions">
 <a class="play-button" href="https://play.google.com/store/apps/details?id=com.bulbulkids.flashcards">
 <svg viewBox="0 0 24 28" aria-hidden="true">
@@ -114,7 +114,7 @@ alternate_ta: suvadi-ta.html
 <section class="section" aria-labelledby="topics-title">
 <p class="eyebrow">A world of first discoveries</p>
 <h2 id="topics-title">Eighteen topics. So much to notice.</h2>
-<p class="section-intro">Start with letters and numbers. Keep going with the things children see around them—and a few things beyond.</p>
+<p class="section-intro">Start with letters and numbers. Keep going with the things children see around them - and a few things beyond.</p>
 <ul class="topic-list">
 <li>Alphabets</li>
 <li>Numbers</li>

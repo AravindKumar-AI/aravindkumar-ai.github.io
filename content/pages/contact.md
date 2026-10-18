@@ -1,5 +1,5 @@
 ---
-title: Contact — Aravind Kumar R
+title: Contact - Aravind Kumar R
 description: Contact and social profiles for Aravind Kumar R.
 layout: note
 nav: contact

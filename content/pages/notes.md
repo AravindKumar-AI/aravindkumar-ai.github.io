@@ -1,5 +1,5 @@
 ---
-title: Posts — Aravind Kumar R
+title: Posts - Aravind Kumar R
 layout: redirect
 redirect: posts.html
 label: posts

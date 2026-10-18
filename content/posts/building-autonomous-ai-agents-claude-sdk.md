@@ -70,4 +70,4 @@ def run_agent_step(user_prompt: str):
 - **Sub-Agent Delegation**: Delegate heavy sub-tasks (like codebase searching or log parsing) to lightweight sub-agents (e.g., Claude 3.5 Haiku) while preserving the main agent's context window.
 - **Deterministic Loop Termination**: Ensure your agent has clear completion criteria so it doesn't enter infinite retry loops upon encountering ambiguous tool responses.
 
-Autonomous AI agents represent the biggest paradigm shift in software development since cloud computing—transforming AI from a passive assistant into an active partner.
+Autonomous AI agents represent the biggest paradigm shift in software development since cloud computing - transforming AI from a passive assistant into an active partner.

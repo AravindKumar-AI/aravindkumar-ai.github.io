@@ -8,7 +8,7 @@
     "year": "2026",
     "place": "1st Place · Winner",
     "rank": "gold",
-    "summary": "An agent that pentests other agents — hunting prompt injection, jailbreaks, and guardrail bypasses on a loop, then filing structured findings.",
+    "summary": "An agent that pentests other agents - hunting prompt injection, jailbreaks, and guardrail bypasses on a loop, then filing structured findings.",
     "detail": "Built for the KnowBe4 AI Hackathon as part of the winning team. The system acts as an autonomous red team: it plans attack campaigns, probes target agents with adaptive jailbreak strategies, scores guardrail failures, and reports reproducible traces. The same ideas later informed production agent-security work (prompt-injection classifiers, evaluation pipelines, Claude Agent SDK audits).",
     "tags": ["AI Agents", "Red Team", "Prompt Injection", "Claude SDK"],
     "links": []
@@ -22,7 +22,7 @@
     "year": "2024",
     "place": "Runners Up",
     "rank": "silver",
-    "summary": "Data enhancement for training recommendations and phishing simulations — built for new users with no previously known profile or behavioral history.",
+    "summary": "Data enhancement for training recommendations and phishing simulations - built for new users with no previously known profile or behavioral history.",
     "detail": "Matrix solves the cold-start problem in security awareness: it enriches sparse user data to power personalized training recommendations and realistic phishing simulations for brand-new users who have no prior history in the system.",
     "tags": ["Recommendations", "Phishing Simulation", "Cold Start", "Security Training"],
     "links": []
@@ -31,12 +31,12 @@
     "slug": "aurater-rover",
     "kind": "hackathon",
     "scene": "rover",
-    "title": "AURATER — Trash-Eliminating Rover",
+    "title": "AURATER - Trash-Eliminating Rover",
     "event": "IEEE Sponsored ICRAET",
     "year": "2017",
     "place": "Best Paper Award",
     "rank": "gold",
-    "summary": "An autonomous unmanned rover that detects and collects trash — the project that started the applied-AI streak, published as primary author.",
+    "summary": "An autonomous unmanned rover that detects and collects trash - the project that started the applied-AI streak, published as primary author.",
     "detail": "Primary author of “AURATER: Autonomous Unmanned Rover with Advanced Trash Eliminating Robot,” presented at the International Conference on Recent Advances in Engineering and Technology. Computer vision plus mechatronics: detect debris, plan a path, pick it up. Best Paper at an IEEE-sponsored venue.",
     "tags": ["Robotics", "Computer Vision", "Mechatronics", "IEEE"],
     "links": []
@@ -50,7 +50,7 @@
     "year": "2026",
     "place": "Open Build",
     "rank": "lab",
-    "summary": "History, science, and math for kids — explained with AI-generated illustrations so the idea lands as a picture, not a paragraph.",
+    "summary": "History, science, and math for kids - explained with AI-generated illustrations so the idea lands as a picture, not a paragraph.",
     "detail": "An educational app for children focused on History, Science, and Math. Lessons are paired with on-the-fly illustrations (Gemini image models) so abstract ideas become visual stories. Built to make learning feel like opening a picture book that writes itself.",
     "tags": ["EdTech", "Gemini", "Kids", "Multimodal"],
     "links": [
@@ -66,7 +66,7 @@
     "year": "2025",
     "place": "Kaggle Writeup",
     "rank": "lab",
-    "summary": "A Socratic tutor for school students that teaches in regional languages (Tamil & English) and asks before it answers — fine-tuned on Gemma 3n.",
+    "summary": "A Socratic tutor for school students that teaches in regional languages (Tamil & English) and asks before it answers - fine-tuned on Gemma 3n.",
     "detail": "WhiZED is a Socratic tutor for school students powered by fine-tuned Gemma 3n. Instead of dumping answers, it walks the student through questions, hints, and worked examples. Built for the Google Gemma 3n Hackathon on Kaggle.",
     "tags": ["Gemma", "Tutoring", "SLMs", "Fine-tuning", "EdTech"],
     "links": [
@@ -84,7 +84,7 @@
     "year": "2023–2025",
     "place": "Open Build",
     "rank": "lab",
-    "summary": "Voice-first English practice for kids — including under-privileged learners — with GPT-backed conversation instead of flashcards.",
+    "summary": "Voice-first English practice for kids, including under-privileged learners, with GPT-backed conversation instead of flashcards.",
     "detail": "Juno is an AI spoken-English app aimed at kids, including under-privileged learners. Asimov is a GPT-powered English learning companion. Both experiments explore patient, voice-first practice loops rather than multiple-choice drills.",
     "tags": ["Speech", "GPT", "Kids", "Accessibility"],
     "links": [

@@ -1,5 +1,5 @@
 ---
-title: Projects — Aravind Kumar R
+title: Projects - Aravind Kumar R
 description: Projects by Aravind Kumar R: LLM fine-tuning, mobile apps, and hackathons.
 layout: note
 nav: projects
@@ -39,7 +39,7 @@ Suvadi helps little learners aged 2–6 explore Tamil and English through pictur
 
 *2026 · KnowBe4 AI Hackathon, Bengaluru · 1st place*
 
-An agent that pentests other agents — hunting prompt injection, jailbreaks, and guardrail bypasses on a loop, then filing structured findings.
+An agent that pentests other agents - hunting prompt injection, jailbreaks, and guardrail bypasses on a loop, then filing structured findings.
 
 Built for the KnowBe4 AI Hackathon as part of the winning team. The system acts as an autonomous red team: it plans attack campaigns, probes target agents with adaptive jailbreak strategies, scores guardrail failures, and reports reproducible traces. The same ideas later informed production agent-security work.
 
@@ -51,7 +51,7 @@ Data enhancement for training recommendations and phishing simulations, built fo
 
 Matrix solves the cold-start problem in security awareness. It enriches sparse user data so brand-new people still get personalized training and realistic phishing simulations.
 
-### AURATER — Trash-Eliminating Rover
+### AURATER - Trash-Eliminating Rover
 
 *2017 · IEEE Sponsored ICRAET · best paper*
 

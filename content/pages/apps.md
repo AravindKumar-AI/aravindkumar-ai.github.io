@@ -1,5 +1,5 @@
 ---
-title: Projects — Aravind Kumar R
+title: Projects - Aravind Kumar R
 layout: redirect
 redirect: projects.html#mobile-apps
 label: projects

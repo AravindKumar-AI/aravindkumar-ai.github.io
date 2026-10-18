@@ -1,6 +1,6 @@
 # Slashing Inference Latency: 8x Acceleration with Nvidia DeepStream & TensorRT
 
-When running real-time computer vision applications—such as multi-stream SaaS traffic analytics or video monitoring—processing high-frame-rate video streams across multiple channels is bottlenecked by CPU-GPU data transfers and non-optimized model runtimes.
+When running real-time computer vision applications (such as multi-stream SaaS traffic analytics or video monitoring), processing high-frame-rate video streams across multiple channels is bottlenecked by CPU-GPU data transfers and non-optimized model runtimes.
 
 This article outlines how we engineered an **8x inference acceleration** in video analytics pipelines by combining **Nvidia DeepStream SDK**, **TensorRT FP16/INT8 quantization**, and **Triton Inference Server**.
 
