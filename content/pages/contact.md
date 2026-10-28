@@ -32,8 +32,8 @@ Open source repos, autonomous agents, and lab builds.
 
 Professional background, experience, and updates.
 
-### [Medium](https://medium.com/@aravindkumar-rajendran)
+### [Medium](https://medium.com/@aravindkumar-ai)
 
-*medium.com/@aravindkumar-rajendran*
+*medium.com/@aravindkumar-ai*
 
 Essays and notes on machine learning engineering.
