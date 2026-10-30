@@ -19,7 +19,7 @@ systems - then checking that they still behave when someone tries to break them.
 i'm at [KnowBe4](https://www.knowbe4.com/),
 on AIDA: agentic phishing simulations, training recommendations from employee risk,
 and a prompt-injection classifier that pushed inference throughput about 6×.
-before that i built learning systems at LearnTube.ai for over a million people,
+before that i built learning systems at LearnTube.ai for over 100K learners,
 including a Neo4j graph of skills and courses, and real-time video pipelines at
 [DIATOZ](https://www.e2ehiring.com)
 - an 8× speedup with NVIDIA DeepStream and TensorRT.

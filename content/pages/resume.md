@@ -11,7 +11,7 @@ nav: resume
 I'm Aravind, a senior machine learning engineer in Bengaluru with 7+ years shipping
 autonomous agents, generative models, and real-time vision. Lately that has meant
 agentic workflows and small-model fine-tuning at KnowBe4, a knowledge graph for more
-than a million learners at LearnTube.ai, and an 8× faster inference path with NVIDIA
+than 100K learners at LearnTube.ai, and an 8× faster inference path with NVIDIA
 DeepStream and TensorRT at DIATOZ. I build agents, language models, and computer vision systems.
 
 ## what i do
@@ -30,7 +30,7 @@ DeepStream and TensorRT at DIATOZ. I build agents, language models, and computer
 
 *Oct 2021 – Aug 2023 · CareerNinja (BeNinja Solutions) · Mumbai*
 
-- Built the AI systems behind a learning platform for **1,000,000+ learners**, cutting curriculum generation from days to under 2 hours.
+- Built the AI systems behind a learning platform for **100K+ learners**, cutting curriculum generation from days to under 2 hours.
 - Shipped a **Neo4j** knowledge graph connecting skills, objectives, and course videos into personalized pathways.
 - Built an AI dubbing pipeline with Whisper, translation, and multilingual voice synthesis for regional Indian languages.
 - Designed an NLP discovery engine with **BERTopic**, **KeyBERT**, and crawlers that ranked educational videos at sub-second latency.
@@ -121,7 +121,7 @@ vLLM, TensorRT, Triton, Docker, FastAPI, AWS, Neo4j, Python, C++, SQL.
 
 - **KnowBe4 AI Hackathon Bengaluru (2026):** Winner. Autonomous red-team agent for prompt injection and guardrail bypasses.
 - **Engineering Innovation Summit (2024):** Runners up, for data enhancement behind training recommendations and phishing simulations.
-- **Best Employee Award (2022):** LearnTube.ai / CareerNinja, for GenAI features and Neo4j recommendations at 1M+ learners.
+- **Best Employee Award (2022):** LearnTube.ai / CareerNinja, for GenAI features and Neo4j recommendations at 100K+ learners.
 - **Best Paper (2017):** IEEE-sponsored ICRAET. Primary author of “AURATER: Autonomous Unmanned Rover with Advanced Trash Eliminating Robot.”
 - **Achieving Student Award (2017):** Sri Krishna College of Engineering and Technology.
 
